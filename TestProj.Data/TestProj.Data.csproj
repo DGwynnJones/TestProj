@@ -1404,21 +1404,6 @@
     <Compile Include="TerritoryTypeCodes.cs">
       <DependentUpon>AvailsModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="TestDBModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TestDBModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TestDBModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TestDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TestDBModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TestDBModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="TimeLog.cs">
       <DependentUpon>AvailsModel.tt</DependentUpon>
     </Compile>
@@ -1478,13 +1463,6 @@
       <DependentUpon>AvailsModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-    <EntityDeploy Include="TestDBModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>TestDBModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="TestDBModel.edmx.diagram">
-      <DependentUpon>TestDBModel.edmx</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AvailsModel.Context.tt">
@@ -1496,16 +1474,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>AvailsModel.edmx</DependentUpon>
       <LastGenOutput>AvailsModel.cs</LastGenOutput>
-    </Content>
-    <Content Include="TestDBModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TestDBModel.edmx</DependentUpon>
-      <LastGenOutput>TestDBModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="TestDBModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TestDBModel.edmx</DependentUpon>
-      <LastGenOutput>TestDBModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

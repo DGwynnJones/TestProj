@@ -1,0 +1,1515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C48F76D4-A059-45BF-B76B-6778423A22C0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestProj.Data</RootNamespace>
+    <AssemblyName>TestProj.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AccountStructure.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AccountTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Actions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AggregatedCounter.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Agreements.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspectRatios.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AuditActionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AuditedTables.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AuditLog.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AutoNumberDefaults.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AvailabilityEffects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AvailsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvailsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AvailsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AvailsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AvailsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="BudgetCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Budgets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessUnitMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessUnits.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelRelations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Channels.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChartOfAccounts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChaseActions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactAccountStatusTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactAccountStatusTypeSystemCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactAlternateNames.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactMethods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactRelationships.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactRelationshipTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactRoles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactRoleTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactRoleTypeSystemCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAllocationRuleChannels.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAllocationRuleLanguages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAllocationRuleProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAllocationRuleRights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAllocationRules.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractAllocationRuleTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBatches.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroupChannels.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroupLanguages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroupProjectCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroupProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroupRights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroups.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractBillingGroupTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardExclusionLanguageAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardExclusionProjectAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardExclusionRightAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardExclusionRightChannelAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardExclusions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardExclusionTerritoryAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardLanguageAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardProjectAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardRightAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardRightChannelAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCards.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardTerritoryAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractCardViewType.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractConditions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractConditionTemplates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractConditionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractDealStatuses.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractDealTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractDocumentTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcDateMethods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcExecutionTimings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcIngestStatementInputValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcIngestStatements.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcIngestStatementTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcInputs.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcInputTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcReportLineAllocations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcReportLines.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcReportRevenue.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcReportRevenueProjectAllocations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcReportRevenueProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractFeeCalcReports.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractGrossReceiptDispositions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractHigherRankedParticipationsContracts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemAllocations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemAllocationsTemporary.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemDefaults.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemDefaultSets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemFeeParameters.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemProjectFeeCalcInputCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemProjectInstallments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemProjectInvoiceLineItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItemProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractInvoiceScheduleItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractJournalEntries.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementAreaMapping.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementCategoryMapping.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementColumnMapping.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementCurrencyMapping.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementProjectMapping.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementRightMapping.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatements.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerStatementsMappings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractLedgerTempImport.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractMaterialDeliveryStatuses.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractMaterials.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractNetCardLanguageAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractNetCardProjectAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractNetCardRightAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractNetCardRightChannelAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractNetCards.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractNetCardTerritoryAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractParties.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractProjectCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractProjectPrices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractProjectTelecastSchedules.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractProjectTelecastScheduleTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReleaseBoxOffice.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReleaseData.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReleaseTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractReportingRegions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRevenueAllocations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRevenueCardAllocations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRevenueCards.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyConsumptionHistory.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyData.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRuleChannels.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRuleLanguages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRuleProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRuleReportingColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRuleRights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRules.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDeductionRuleTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionAttributeSets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionChannels.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionLanguages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionReserves.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionRights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyDefinitionTiers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyLineItemTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyReportingSchedulePeriodDates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyReportingSchedulePeriods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyReportingScheduleProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyReportingSchedules.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyScheduleItemDetail.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyScheduleItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractRoyaltyTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractShipmentMaterials.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractShipmentMaterialTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractShipments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractStatuses.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemChannels.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemLanguages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemRights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemRoleTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemTerritories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemTypeRoles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTimelineItemTypeSystemCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractVersionSets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Counter.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Countries.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CountryLanguages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Currencies.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_Constraints.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_ContactDedupeExceptions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_EventSubscriptionsOld.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_ContactRoles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_Contacts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_ContractGrossReceiptDispositions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_ContractInvoiceScheduleItemProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_ContractProjectData.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_ContractSalesReps.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_Languages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_RegionMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_Regions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_RightGroupMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_RightGroups.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_Rights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_SalesReps.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_old_Territories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__old_ContractMaterialDefaults.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__old_ContractMaterialDefaultSets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__old_ContractMaterialDeliveryMethods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__old_ContractMaterialItemTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__old_ContractMaterials.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__old_Currencies.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DateUnits.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultContacts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DefinitionIdentityTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayGroups.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayTemplateColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayTemplates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DispositionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentDefaults.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventSources.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventSubscriptionRecords.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventSubscriptions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventSubscriptionStatus.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventSubscriptionTemplates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelHorizontalAlignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelPaperOrientations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelPaperSizes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelVerticalAlignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExchangeRateCloseDates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExchangeRates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FavoriteSearches.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcAggregateOperations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcGuaranteeEvaluationOrder.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcIngestStatementTemplateInputs.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcIngestStatementTemplates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcInputCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcInputTypeTargetDates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FeeCalcReallocationMethods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fields.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialPeriodTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialSummary.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionalAreas.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GLAccounts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HangfirePendingJobs.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hash.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoldbackTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IdentityOwnerTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InstanceMetadataChangesTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InstancePromotedPropertiesTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InstancesTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="inven_SystemSettings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Investments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvestmentTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvestorPercentages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceActionCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceActionLogEntries.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceItemCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceItemCategorySystemCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceLineItemAllocations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceLineItemPayments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceLineItemPaymentSplits.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceLineItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Invoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Job.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobParameter.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobQueue.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KeysTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Languages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageTypeCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerSourceTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerStatementAreas.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerStatementCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseBehaviors.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="List.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LockoutDates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LockOwnersTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LogActions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LogActionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logs.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MainAccountSegments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Materials.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItemPermissions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NegotiationStages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NetCalcEvents.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributes1.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributeSets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributeSets1.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributeValueProjects.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributeValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OtherDataAttributeValues1.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PageContextToEventAreas.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsActivity.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsActivityLines.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsActivityLineValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsActivityTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsIngestionMappingCalculatedColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsIngestionMappingColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsIngestionMappingColumnTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsIngestionMappings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsIngestionMappingTranslations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsIngestionMappingTranslationTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportingColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportingColumnTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportLines.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportLineShareCalculations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportLineShareReserves.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportLineShares.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReportLineValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReports.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReserveTypeReportingColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsReserveTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsStatementReportLines.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsStatementReports.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipationsStatements.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentDisbursements.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentItemReceipts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payments1.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PercentageTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PeriodTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhoneTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PostedContractEditSettings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardChannelAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardContractCards.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardEvents.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardLanguageAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardProjectAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardProjectSelections.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardRightAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCards.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAltCardTerritoryAssignments.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDisplayItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecurrenceDaysOfWeek.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecurrenceMonthlySequences.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecurrenceTypeDaysOfWeekMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecurrenceTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionAskingPrices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RegionZones.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAvailableCriteriaTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAvailsKeys.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteria.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaAmount.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaBatchYearsChoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDateChoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultAmounts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultDateChoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultDates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultDisplayChoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaults.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultsDateChoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultsDisplayItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultSets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaDefaultStringValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaProjectDisplayChoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaSessions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaStringValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCriteriaTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelColumnSettingOverrides.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelColumnSettings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelConditionalFormatSettings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelFormatConditionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelFormatOperatorTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelGlobalSettingOverrides.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportExcelGlobalSettings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGroupMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGroups.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportLogs.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOutputs.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOutputsAvailable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportQueueItemEvents.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportQueueItemEventTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportQueueItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportQueueItemStatusTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResponsibleParties.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResponsiblePartyTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueRecognitionMethodInvoiceCategories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueRecognitionMethods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueRecognitionMethodSystemCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightChannelMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightGroupTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightRelations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightRoles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightRoleTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rights.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RightTypeCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyAttributes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyCalculationBasis.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyCalculationMethods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyConsumptionHistoryRecordTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyDeductionRuleCombinationOptions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyDeductionRuleTimingOptions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestionMappingColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestionMappingColumnTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestionMappings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestionMappingTranslations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestionMappingTranslationTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestStatementLineErrors.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestStatementLines.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestStatementLineValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyIngestStatements.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyRecoupmentPeriods.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReportingColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReportingColumnTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReportLines.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReportLineShareCalculations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReportLineShares.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReportLineValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyReports.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoyaltyUpperLimitTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RunnableInstancesTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SavedSearch.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SavedSearchContracts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SavedSearchCriteria.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SavedSearchInvoices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SavedSearchView.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Schedules.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Schema.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Server.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceDeploymentsTable.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Set.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ShippingCompanies.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="State.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Subsets.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubsetSources.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAuditLog.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAuditLogEntries.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAuditLogEntryValues.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettings.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettingsMenuItems.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SystemUndeletableIds.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tables.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabularCells.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabularColumns.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabularFiles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabularPages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TabularRows.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TargetTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaxRates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaxTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Terms.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Territories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryAskingPrices.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryLanguageMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryMembers.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryRelations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryRoles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryRoleTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerritoryTypeCodes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TestDBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TestDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TestDBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDBModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeLog.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransitionActionConfigurations.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransitionActions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransitionActionStages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransitionAttemptActionResultMessages.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransitionAttemptActionResults.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vault_Applications.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vault_Categories.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vault_Files.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VideoFormatTypes.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Workflows.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkflowStates.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkflowTransitionAttempts.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkflowTransitionRoles.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkflowTransitions.cs">
+      <DependentUpon>AvailsModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="AvailsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AvailsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AvailsModel.edmx.diagram">
+      <DependentUpon>AvailsModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <EntityDeploy Include="TestDBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TestDBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="TestDBModel.edmx.diagram">
+      <DependentUpon>TestDBModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AvailsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AvailsModel.edmx</DependentUpon>
+      <LastGenOutput>AvailsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AvailsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AvailsModel.edmx</DependentUpon>
+      <LastGenOutput>AvailsModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="TestDBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TestDBModel.edmx</DependentUpon>
+      <LastGenOutput>TestDBModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="TestDBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TestDBModel.edmx</DependentUpon>
+      <LastGenOutput>TestDBModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

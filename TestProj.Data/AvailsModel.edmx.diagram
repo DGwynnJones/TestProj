@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf40f1b4f5604e40bdfb93759b2c7e08" Name="Diagram1" ZoomLevel="23">
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_EventSubscriptionsOld" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AspectRatios" Width="1.5" PointX="21" PointY="212.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.BusinessUnitMembers" Width="1.5" PointX="18" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.BusinessUnits" Width="1.5" PointX="15.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ChannelMembers" Width="1.5" PointX="14.25" PointY="209.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ChannelRelations" Width="1.5" PointX="14.25" PointY="206" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Channels" Width="1.5" PointX="12" PointY="209.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactAccountStatusTypes" Width="1.5" PointX="7.5" PointY="175.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactAccountStatusTypeSystemCodes" Width="1.5" PointX="5.25" PointY="175.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactAlternateNames" Width="1.5" PointX="26" PointY="201" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactMethods" Width="1.5" PointX="26" PointY="194.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactRelationships" Width="1.5" PointX="12" PointY="183.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactRelationshipTypes" Width="1.5" PointX="9.75" PointY="154.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactRoles" Width="1.5" PointX="28.25" PointY="184.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactRoleTypes" Width="1.5" PointX="26" PointY="190.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContactRoleTypeSystemCodes" Width="1.5" PointX="23.75" PointY="191.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Contacts" Width="1.5" PointX="9.75" PointY="178.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractAllocationRuleChannels" Width="1.5" PointX="14.25" PointY="226" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractAllocationRuleLanguages" Width="1.5" PointX="8.25" PointY="221" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractAllocationRuleProjects" Width="1.5" PointX="8.25" PointY="265" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractAllocationRuleRights" Width="1.5" PointX="14.25" PointY="222" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractAllocationRules" Width="1.5" PointX="6" PointY="225" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractAllocationRuleTerritories" Width="1.5" PointX="14.25" PointY="218" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroupChannels" Width="1.5" PointX="33.5" PointY="249.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroupLanguages" Width="1.5" PointX="36.5" PointY="249.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroupProjectCategories" Width="1.5" PointX="30.5" PointY="247.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroupProjects" Width="1.5" PointX="28.5" PointY="256.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroupRights" Width="1.5" PointX="34.5" PointY="245.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroups" Width="1.5" PointX="26.25" PointY="239.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBillingGroupTerritories" Width="1.5" PointX="36.5" PointY="237.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardCategories" Width="1.5" PointX="15" PointY="213.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardExclusionLanguageAssignments" Width="1.5" PointX="27.75" PointY="250.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardExclusionProjectAssignments" Width="1.5" PointX="21.75" PointY="260.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardExclusionRightAssignments" Width="1.5" PointX="21.75" PointY="254.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardExclusionRightChannelAssignments" Width="1.5" PointX="24" PointY="260.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardExclusions" Width="1.5" PointX="19.5" PointY="249.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardExclusionTerritoryAssignments" Width="1.5" PointX="24.75" PointY="250.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardRightAssignments" Width="1.5" PointX="25.5" PointY="211.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardRightChannelAssignments" Width="1.5" PointX="27.75" PointY="213.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardTerritoryAssignments" Width="1.5" PointX="22.5" PointY="216.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardViewType" Width="1.5" PointX="9.75" PointY="243.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcDateMethods" Width="1.5" PointX="29.25" PointY="260.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcExecutionTimings" Width="1.5" PointX="29.25" PointY="243.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcIngestStatementInputValues" Width="1.5" PointX="24.75" PointY="323.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcIngestStatements" Width="1.5" PointX="16.5" PointY="323.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcIngestStatementTypes" Width="1.5" PointX="14.25" PointY="331.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcInputs" Width="1.5" PointX="27.5" PointY="234.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcInputTypes" Width="1.5" PointX="25.25" PointY="187.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcReportLineAllocations" Width="1.5" PointX="27" PointY="264.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcReportLines" Width="1.5" PointX="24.75" PointY="268.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcReportRevenue" Width="1.5" PointX="22" PointY="313.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcReportRevenueProjectAllocations" Width="1.5" PointX="33" PointY="270.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcReportRevenueProjects" Width="1.5" PointX="27.75" PointY="270.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractFeeCalcReports" Width="1.5" PointX="18.75" PointY="312.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractGrossReceiptDispositions" Width="1.5" PointX="25.25" PointY="234.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractHigherRankedParticipationsContracts" Width="1.5" PointX="16.5" PointY="269" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemAllocations" Width="1.5" PointX="33" PointY="230" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemDefaults" Width="1.5" PointX="8.25" PointY="150.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemDefaultSets" Width="1.5" PointX="6" PointY="150.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemFeeParameters" Width="1.5" PointX="31.5" PointY="236.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemProjectFeeCalcInputCategories" Width="1.5" PointX="30.75" PointY="225.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemProjectInstallments" Width="1.5" PointX="30.75" PointY="229.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemProjects" Width="1.5" PointX="22.5" PointY="228.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementAreaMapping" Width="1.5" PointX="12" PointY="249.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementCategoryMapping" Width="1.5" PointX="17" PointY="217.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementColumnMapping" Width="1.5" PointX="6" PointY="205.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementCurrencyMapping" Width="1.5" PointX="6" PointY="237.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementItems" Width="1.5" PointX="9" PointY="231.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementProjectMapping" Width="1.5" PointX="6" PointY="201.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementRightMapping" Width="1.5" PointX="17.25" PointY="195.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatements" Width="1.5" PointX="16.5" PointY="331.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerStatementsMappings" Width="1.5" PointX="3.75" PointY="221.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractLedgerTempImport" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractMaterialDeliveryStatuses" Width="1.5" PointX="21" PointY="202.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractMaterials" Width="1.5" PointX="23.25" PointY="219.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractNetCardLanguageAssignments" Width="1.5" PointX="33.75" PointY="235.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractNetCardProjectAssignments" Width="1.5" PointX="27.75" PointY="246.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractNetCardRightAssignments" Width="1.5" PointX="35.75" PointY="227.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractNetCardRightChannelAssignments" Width="1.5" PointX="38" PointY="229.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractNetCards" Width="1.5" PointX="25.5" PointY="227.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractNetCardTerritoryAssignments" Width="1.5" PointX="36.75" PointY="224.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractParties" Width="1.5" PointX="28.25" PointY="228" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractProjectCategories" Width="1.5" PointX="20.25" PointY="239.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractProjectPrices" Width="1.5" PointX="14.25" PointY="306.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractProjectTelecastSchedules" Width="1.5" PointX="14.25" PointY="310" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractProjectTelecastScheduleTerritories" Width="1.5" PointX="16.5" PointY="310.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRevenueAllocations" Width="1.5" PointX="20.25" PointY="220.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRevenueCardAllocations" Width="1.5" PointX="28.5" PointY="222" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRevenueCards" Width="1.5" PointX="17.25" PointY="228.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyConsumptionHistory" Width="1.5" PointX="30.5" PointY="269.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRuleChannels" Width="1.5" PointX="30.5" PointY="251.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRuleLanguages" Width="1.5" PointX="37.5" PointY="245.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRuleProjects" Width="1.5" PointX="25.5" PointY="253.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRuleReportingColumns" Width="1.5" PointX="33.5" PointY="253" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRuleRights" Width="1.5" PointX="37.5" PointY="241.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRules" Width="1.5" PointX="23.25" PointY="239.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDeductionRuleTerritories" Width="1.5" PointX="25.5" PointY="246.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionAttributeSets" Width="1.5" PointX="33.5" PointY="224.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionChannels" Width="1.5" PointX="31.5" PointY="221.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionLanguages" Width="1.5" PointX="31.5" PointY="217.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionProjects" Width="1.5" PointX="28.5" PointY="239.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionReserves" Width="1.5" PointX="28.5" PointY="217.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionRights" Width="1.5" PointX="34.5" PointY="221.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitions" Width="1.5" PointX="26.25" PointY="218.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionTerritories" Width="1.5" PointX="34.5" PointY="217.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyDefinitionTiers" Width="1.5" PointX="36.75" PointY="217.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyReportingSchedulePeriodDates" Width="1.5" PointX="27" PointY="305.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyReportingSchedulePeriods" Width="1.5" PointX="18.75" PointY="335.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyReportingScheduleProjects" Width="1.5" PointX="18.75" PointY="340.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyReportingSchedules" Width="1.5" PointX="16.5" PointY="336" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractShipmentMaterials" Width="1.5" PointX="21.75" PointY="317.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractShipmentMaterialTypes" Width="1.5" PointX="19.5" PointY="309.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractShipments" Width="1.5" PointX="16.5" PointY="318.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemChannels" Width="1.5" PointX="24.5" PointY="257.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemLanguages" Width="1.5" PointX="34.5" PointY="257.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemProjects" Width="1.5" PointX="19.5" PointY="257.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemRights" Width="1.5" PointX="31.5" PointY="257.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemRoleTypes" Width="1.5" PointX="15" PointY="263.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItems" Width="1.5" PointX="17.25" PointY="240.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemTerritories" Width="1.5" PointX="36.5" PointY="253.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemTypeRoles" Width="1.5" PointX="17.25" PointY="257.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemTypes" Width="1.5" PointX="15" PointY="258.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTimelineItemTypeSystemCodes" Width="1.5" PointX="12.75" PointY="259.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractVersionSets" Width="1.5" PointX="14.25" PointY="317.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Currencies" Width="1.5" PointX="0.75" PointY="230.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DispositionTypes" Width="1.5" PointX="23" PointY="282.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.EventSources" Width="1.5" PointX="15.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.EventSubscriptionRecords" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.EventSubscriptions" Width="1.5" PointX="20" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.EventSubscriptionStatus" Width="1.5" PointX="17.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.EventSubscriptionTemplates" Width="1.5" PointX="18" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExcelColumns" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExchangeRateCloseDates" Width="1.5" PointX="0.75" PointY="226.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExchangeRates" Width="1.5" PointX="3" PointY="225.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FavoriteSearches" Width="1.5" PointX="27.75" PointY="356.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcAggregateOperations" Width="1.5" PointX="5.25" PointY="179.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcGuaranteeEvaluationOrder" Width="1.5" PointX="18" PointY="206.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcIngestStatementTemplateInputs" Width="1.5" PointX="31.75" PointY="193.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcIngestStatementTemplates" Width="1.5" PointX="7.5" PointY="178.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcInputCategories" Width="1.5" PointX="28.5" PointY="209.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcInputTypeTargetDates" Width="1.5" PointX="23" PointY="187.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FeeCalcReallocationMethods" Width="1.5" PointX="18" PointY="209.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FinancialSummary" Width="1.5" PointX="34.5" PointY="240.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.HangfirePendingJobs" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceItemCategorySystemCodes" Width="1.5" PointX="1.5" PointY="195" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceLineItemAllocations" Width="1.5" PointX="36" PointY="278.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Invoices" Width="1.5" PointX="22.5" PointY="269.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LanguageMembers" Width="1.5" PointX="8.25" PointY="217.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Languages" Width="1.5" PointX="6" PointY="216.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LanguageTypeCodes" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LedgerStatementAreas" Width="1.5" PointX="6.75" PointY="259.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LedgerStatementCategories" Width="1.5" PointX="6.75" PointY="209.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LicenseBehaviors" Width="1.5" PointX="12.75" PointY="255" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Materials" Width="1.5" PointX="21" PointY="198.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.NetCalcEvents" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributeValueProjects" Width="1.5" PointX="7.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PageContextToEventAreas" Width="1.5" PointX="9.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsActivity" Width="1.5" PointX="33" PointY="264.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsActivityLines" Width="1.5" PointX="35.25" PointY="268.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsActivityLineValues" Width="1.5" PointX="37.5" PointY="271" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsActivityTypes" Width="1.5" PointX="30.75" PointY="265.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsIngestionMappingCalculatedColumns" Width="1.5" PointX="29.25" PointY="105.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsIngestionMappingColumns" Width="1.5" PointX="26.25" PointY="105.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsIngestionMappingColumnTypes" Width="1.5" PointX="24" PointY="106.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsIngestionMappings" Width="1.5" PointX="10.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsIngestionMappingTranslations" Width="1.5" PointX="13" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsIngestionMappingTranslationTypes" Width="1.5" PointX="10.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportingColumns" Width="1.5" PointX="24" PointY="205" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportingColumnTypes" Width="1.5" PointX="21.75" PointY="206.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportLines" Width="1.5" PointX="38.5" PointY="281.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportLineShareCalculations" Width="1.5" PointX="46" PointY="257.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportLineShareReserves" Width="1.5" PointX="46" PointY="253.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportLineShares" Width="1.5" PointX="43.75" PointY="252.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReportLineValues" Width="1.5" PointX="48.25" PointY="267.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReports" Width="1.5" PointX="16.5" PointY="339.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReserveTypeReportingColumns" Width="1.5" PointX="46" PointY="232.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsReserveTypes" Width="1.5" PointX="43.75" PointY="259.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsStatementReportLines" Width="1.5" PointX="40.75" PointY="299.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsStatementReports" Width="1.5" PointX="27" PointY="317" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ParticipationsStatements" Width="1.5" PointX="24.75" PointY="294.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PostedContractEditSettings" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardChannelAssignments" Width="1.5" PointX="19.5" PointY="327.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardContractCards" Width="1.5" PointX="19.5" PointY="274.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardEvents" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardLanguageAssignments" Width="1.5" PointX="19.5" PointY="331.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardProjectAssignments" Width="1.5" PointX="22.5" PointY="322.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardProjectSelections" Width="1.5" PointX="22.5" PointY="331.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardRightAssignments" Width="1.5" PointX="22.5" PointY="327.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCards" Width="1.5" PointX="14.25" PointY="326.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectAltCardTerritoryAssignments" Width="1.5" PointX="21.5" PointY="335.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectCategories" Width="1.5" PointX="18" PointY="278.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RecurrenceDaysOfWeek" Width="1.5" PointX="18" PointY="202.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RecurrenceMonthlySequences" Width="1.5" PointX="18" PointY="213" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RecurrenceTypeDaysOfWeekMembers" Width="1.5" PointX="30.25" PointY="214" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RecurrenceTypes" Width="1.5" PointX="18" PointY="260.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaAmount" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultAmounts" Width="1.5" PointX="3" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportLogs" Width="1.5" PointX="20.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportQueueItemEvents" Width="1.5" PointX="10.5" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportQueueItemEventTypes" Width="1.5" PointX="8.25" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportQueueItems" Width="1.5" PointX="8.25" PointY="53.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportQueueItemStatusTypes" Width="1.5" PointX="6" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RevenueRecognitionMethodInvoiceCategories" Width="1.5" PointX="39.25" PointY="225.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RevenueRecognitionMethods" Width="1.5" PointX="24" PointY="264" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RevenueRecognitionMethodSystemCodes" Width="1.5" PointX="20.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightChannelMembers" Width="1.5" PointX="14.25" PointY="191.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightGroupTypes" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightMembers" Width="1.5" PointX="14.25" PointY="172.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightRelations" Width="1.5" PointX="14.25" PointY="176" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightRoles" Width="1.5" PointX="14.25" PointY="169.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightRoleTypes" Width="1.5" PointX="12" PointY="164.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Rights" Width="1.5" PointX="12" PointY="167.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RightTypeCodes" Width="1.5" PointX="9.75" PointY="171.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyAttributes" Width="1.5" PointX="30.75" PointY="285.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyCalculationBasis" Width="1.5" PointX="34.5" PointY="210.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyCalculationMethods" Width="1.5" PointX="34.5" PointY="207.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyConsumptionHistoryRecordTypes" Width="1.5" PointX="28.25" PointY="283.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyDeductionRuleCombinationOptions" Width="1.5" PointX="21" PointY="285.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyDeductionRuleTimingOptions" Width="1.5" PointX="21" PointY="264" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestionMappingColumns" Width="1.5" PointX="40.25" PointY="240.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestionMappingColumnTypes" Width="1.5" PointX="38" PointY="261.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestionMappings" Width="1.5" PointX="7.5" PointY="182.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestionMappingTranslations" Width="1.5" PointX="14.75" PointY="183.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestionMappingTranslationTypes" Width="1.5" PointX="12.5" PointY="161.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestStatementLineErrors" Width="1.5" PointX="16.5" PointY="250.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestStatementLines" Width="1.5" PointX="14.25" PointY="237.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestStatementLineValues" Width="1.5" PointX="22.5" PointY="249.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyIngestStatements" Width="1.5" PointX="6" PointY="230.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyRecoupmentPeriods" Width="1.5" PointX="34.5" PointY="214.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReportingColumns" Width="1.5" PointX="36" PointY="296.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReportingColumnTypes" Width="1.5" PointX="33.75" PointY="296.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReportLines" Width="1.5" PointX="33" PointY="275.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReportLineShareCalculations" Width="1.5" PointX="42.5" PointY="247.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReportLineShares" Width="1.5" PointX="40.25" PointY="245.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReportLineValues" Width="1.5" PointX="38.25" PointY="276.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyReports" Width="1.5" PointX="24.75" PointY="274.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RoyaltyUpperLimitTypes" Width="1.5" PointX="34.5" PointY="204.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SavedSearchContracts" Width="1.5" PointX="20.25" PointY="244.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SavedSearchInvoices" Width="1.5" PointX="27.75" PointY="280.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SystemSettingsMenuItems" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TaxRates" Width="1.5" PointX="12" PointY="206" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TaxTypes" Width="1.5" PointX="9.75" PointY="210.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Territories" Width="1.5" PointX="12" PointY="191.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryLanguageMembers" Width="1.5" PointX="14.25" PointY="197.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryMembers" Width="1.5" PointX="14.25" PointY="194.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryRelations" Width="1.5" PointX="14.25" PointY="201" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryRoles" Width="1.5" PointX="17.25" PointY="199.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryRoleTypes" Width="1.5" PointX="15" PointY="188.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryTypeCodes" Width="1.5" PointX="9.75" PointY="194.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AuditedTables" Width="1.5" PointX="4.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Countries" Width="1.5" PointX="23.75" PointY="195.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.CountryLanguages" Width="1.5" PointX="26" PointY="183.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.MenuItemPermissions" Width="1.5" PointX="9.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ShippingCompanies" Width="1.5" PointX="14.25" PointY="334" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SystemAuditLog" Width="1.5" PointX="13" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SystemAuditLogEntries" Width="1.5" PointX="13" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SystemAuditLogEntryValues" Width="1.5" PointX="15.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TabularCells" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TabularColumns" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TabularFiles" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TabularPages" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TabularRows" Width="1.5" PointX="8.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C__old_ContractMaterialDefaults" Width="1.5" PointX="20.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C__old_ContractMaterialDefaultSets" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C__old_ContractMaterialDeliveryMethods" Width="1.5" PointX="22.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C__old_ContractMaterialItemTypes" Width="1.5" PointX="29.25" PointY="193.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C__old_ContractMaterials" Width="1.5" PointX="22.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_Constraints" Width="1.5" PointX="6.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_ContactRoles" Width="1.5" PointX="22.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_Contacts" Width="1.5" PointX="15" PointY="287.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_ContractGrossReceiptDispositions" Width="1.5" PointX="11.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_ContractInvoiceScheduleItemProjects" Width="1.5" PointX="39" PointY="253.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_ContractProjectData" Width="1.5" PointX="13.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_SalesReps" Width="1.5" PointX="22.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AuditActionTypes" Width="1.5" PointX="10.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AuditLog" Width="1.5" PointX="13" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AutoNumberDefaults" Width="1.5" PointX="15.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AvailabilityEffects" Width="1.5" PointX="7.5" PointY="253.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ChaseActions" Width="1.5" PointX="29.25" PointY="196.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractBatches" Width="1.5" PointX="9.75" PointY="207.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardLanguageAssignments" Width="1.5" PointX="19.5" PointY="215.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCardProjectAssignments" Width="1.5" PointX="19.5" PointY="254.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractCards" Width="1.5" PointX="17.25" PointY="221.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractConditions" Width="1.5" PointX="23.25" PointY="224.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractConditionTemplates" Width="1.5" PointX="17.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractConditionTypes" Width="1.5" PointX="21" PointY="209.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractDealStatuses" Width="1.5" PointX="9.75" PointY="204.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractDealTypes" Width="1.5" PointX="9.75" PointY="249.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractDocumentTypes" Width="1.5" PointX="29.25" PointY="206.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItems" Width="1.5" PointX="20.25" PointY="226" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractJournalEntries" Width="1.5" PointX="31.5" PointY="241.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractReleaseBoxOffice" Width="1.5" PointX="16.5" PointY="234" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractReleaseData" Width="1.5" PointX="14.25" PointY="229.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractReleaseTerritories" Width="1.5" PointX="22.5" PointY="236.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractReportingRegions" Width="1.5" PointX="17.25" PointY="245.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyData" Width="1.5" PointX="14.25" PointY="344" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyLineItemTypes" Width="1.5" PointX="6.75" PointY="213.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyProjects" Width="1.5" PointX="16.5" PointY="352.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyScheduleItemDetail" Width="1.5" PointX="9" PointY="224.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyScheduleItems" Width="1.5" PointX="19.5" PointY="343.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractRoyaltyTerritories" Width="1.5" PointX="16.5" PointY="344.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Contracts" Width="1.5" PointX="12" PointY="218.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractStatuses" Width="1.5" PointX="9.75" PointY="254.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractTypes" Width="1.5" PointX="9.75" PointY="259.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DataTypes" Width="1.5" PointX="18.75" PointY="349.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DateUnits" Width="1.5" PointX="22.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DefaultContacts" Width="1.5" PointX="12" PointY="187.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExcelHorizontalAlignments" Width="1.5" PointX="3" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExcelPaperOrientations" Width="1.5" PointX="3" PointY="69.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExcelPaperSizes" Width="1.5" PointX="3" PointY="67" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ExcelVerticalAlignments" Width="1.5" PointX="3" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FunctionalAreas" Width="1.5" PointX="25.5" PointY="282.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.GLAccounts" Width="1.5" PointX="1.5" PointY="197.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.HoldbackTypes" Width="1.5" PointX="23.25" PointY="212.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceActionCategories" Width="1.5" PointX="29.25" PointY="199.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceActionLogEntries" Width="1.5" PointX="27.75" PointY="275.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceItemCategories" Width="1.5" PointX="3.75" PointY="195.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceLineItemPayments" Width="1.5" PointX="33" PointY="260.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceLineItemPaymentSplits" Width="1.5" PointX="35.25" PointY="261.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvoiceLineItems" Width="1.5" PointX="30.75" PointY="276.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LicenseTypes" Width="1.5" PointX="15" PointY="253.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LogActions" Width="1.5" PointX="25.5" PointY="286" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.NegotiationStages" Width="1.5" PointX="7.5" PointY="256.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Numbers" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributes" Width="1.5" PointX="21" PointY="349.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributeSets" Width="1.5" PointX="18.75" PointY="352" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributeValues" Width="1.5" PointX="23.25" PointY="245.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PaymentDisbursements" Width="1.5" PointX="5.25" PointY="241" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Payments" Width="1.5" PointX="3" PointY="230.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PeriodTypes" Width="1.5" PointX="9.75" PointY="268.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PhoneTypes" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ProjectDisplayItems" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RegionAskingPrices" Width="1.5" PointX="3" PointY="237.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RegionTypes" Width="1.5" PointX="24.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RegionZones" Width="1.5" PointX="9.75" PointY="197.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportAvailableCriteriaTypes" Width="1.5" PointX="11.25" PointY="65.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportAvailsKeys" Width="1.5" PointX="8.25" PointY="68.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteria" Width="1.5" PointX="11.25" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaBatchYearsChoices" Width="1.5" PointX="8.25" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDateChoices" Width="1.5" PointX="8.25" PointY="76.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDates" Width="1.5" PointX="24.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultDateChoices" Width="1.5" PointX="3" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultDates" Width="1.5" PointX="3" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultDisplayChoices" Width="1.5" PointX="3" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaults" Width="1.5" PointX="6" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultsDateChoices" Width="1.5" PointX="5.25" PointY="109.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultsDisplayItems" Width="1.5" PointX="5.25" PointY="112" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultSets" Width="1.5" PointX="0.75" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaDefaultStringValues" Width="1.5" PointX="6" PointY="39.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaProjectDisplayChoices" Width="1.5" PointX="24.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaSessions" Width="1.5" PointX="6" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaStringValues" Width="1.5" PointX="14.25" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportCriteriaTypes" Width="1.5" PointX="3.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelColumnSettingOverrides" Width="1.5" PointX="11.25" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelColumnSettings" Width="1.5" PointX="5.25" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelConditionalFormatSettings" Width="1.5" PointX="8.25" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelFormatConditionTypes" Width="1.5" PointX="6" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelFormatOperatorTypes" Width="1.5" PointX="6" PointY="76.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelGlobalSettingOverrides" Width="1.5" PointX="5.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportExcelGlobalSettings" Width="1.5" PointX="14.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportGroupMembers" Width="1.5" PointX="11.25" PointY="55.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportGroups" Width="1.5" PointX="9" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportOutputs" Width="1.5" PointX="6" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ReportOutputsAvailable" Width="1.5" PointX="8.25" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Reports" Width="1.5" PointX="3" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ResponsibleParties" Width="1.5" PointX="9.75" PointY="271.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.sysdiagrams" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SystemSettings" Width="1.5" PointX="24.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SystemUndeletableIds" Width="1.5" PointX="31.5" PointY="196.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TerritoryAskingPrices" Width="1.5" PointX="9" PointY="237.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.vault_Applications" Width="1.5" PointX="0.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.vault_Categories" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.vault_Files" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.VideoFormatTypes" Width="1.5" PointX="9.75" PointY="275.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Accounts" Width="1.5" PointX="9.75" PointY="161.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AccountStructure" Width="1.5" PointX="7.5" PointY="171.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AccountTypes" Width="1.5" PointX="9.75" PointY="158.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ChartOfAccounts" Width="1.5" PointX="12" PointY="178.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LockoutDates" Width="1.5" PointX="29.25" PointY="189.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.MainAccountSegments" Width="1.5" PointX="9.75" PointY="174.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Subsets" Width="1.5" PointX="7.5" PointY="187.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SubsetSources" Width="1.5" PointX="5.25" PointY="189.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TransactionTypes" Width="1.5" PointX="24.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.AggregatedCounter" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Counter" Width="1.5" PointX="2.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Hash" Width="1.5" PointX="4.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Job" Width="1.5" PointX="15.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.JobParameter" Width="1.5" PointX="18" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.JobQueue" Width="1.5" PointX="6.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.List" Width="1.5" PointX="8.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Schema" Width="1.5" PointX="19.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Server" Width="1.5" PointX="21.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Set" Width="1.5" PointX="23.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.State" Width="1.5" PointX="18" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Agreements" Width="1.5" PointX="17.25" PointY="289.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.BudgetCategories" Width="1.5" PointX="20.25" PointY="299.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Budgets" Width="1.5" PointX="22.5" PointY="291.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DocumentDefaults" Width="1.5" PointX="25.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.FinancialPeriodTypes" Width="1.5" PointX="17.25" PointY="301.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Investments" Width="1.5" PointX="39.5" PointY="235.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvestmentTypes" Width="1.5" PointX="37.25" PointY="233.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InvestorPercentages" Width="1.5" PointX="15" PointY="356.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LedgerCategories" Width="1.5" PointX="17.25" PointY="305.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LedgerItems" Width="1.5" PointX="19.5" PointY="316.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LedgerSourceTypes" Width="1.5" PointX="17.25" PointY="297.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LedgerTypes" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LogActionTypes" Width="1.5" PointX="17.25" PointY="274.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Logs" Width="1.5" PointX="19.5" PointY="294.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributes1" Width="1.5" PointX="17.25" PointY="283.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributeSets1" Width="1.5" PointX="15" PointY="284.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.OtherDataAttributeValues1" Width="1.5" PointX="19.5" PointY="290.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PaymentItemReceipts" Width="1.5" PointX="24.75" PointY="318.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PaymentItems" Width="1.5" PointX="17.25" PointY="359.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Payments1" Width="1.5" PointX="15" PointY="362.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.PercentageTypes" Width="1.5" PointX="12.75" PointY="355.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ResponsiblePartyTypes" Width="1.5" PointX="17.25" PointY="265.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Schedules" Width="1.5" PointX="12.75" PointY="358.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Terms" Width="1.5" PointX="19.5" PointY="305.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DisplayGroups" Width="1.5" PointX="21" PointY="355.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DisplayTemplateColumns" Width="1.5" PointX="30" PointY="357.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DisplayTemplates" Width="1.5" PointX="27.75" PointY="363.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Fields" Width="1.5" PointX="23.25" PointY="351.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SavedSearch" Width="1.5" PointX="25.5" PointY="354" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SavedSearchCriteria" Width="1.5" PointX="30.75" PointY="352.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SavedSearchView" Width="1.5" PointX="27.75" PointY="353" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.SearchTypes" Width="1.5" PointX="23.25" PointY="361.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Tables" Width="1.5" PointX="21" PointY="357.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Actions" Width="1.5" PointX="34.5" PointY="289" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TargetTypes" Width="1.5" PointX="5.25" PointY="247.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TransitionActionConfigurations" Width="1.5" PointX="39" PointY="290.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TransitionActions" Width="1.5" PointX="36.75" PointY="290.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TransitionActionStages" Width="1.5" PointX="34.5" PointY="292.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TransitionAttemptActionResultMessages" Width="1.5" PointX="41.25" PointY="257.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TransitionAttemptActionResults" Width="1.5" PointX="39" PointY="257.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.Workflows" Width="1.5" PointX="7.5" PointY="249.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.WorkflowStates" Width="1.5" PointX="5.25" PointY="250.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.WorkflowTransitionAttempts" Width="1.5" PointX="36.75" PointY="257.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.WorkflowTransitionRoles" Width="1.5" PointX="36.75" PointY="286.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.WorkflowTransitions" Width="1.5" PointX="34.5" PointY="284.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemAllocationsTemporary" Width="1.5" PointX="26.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ContractInvoiceScheduleItemProjectInvoiceLineItems" Width="1.5" PointX="29.75" PointY="233.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C__old_Currencies" Width="1.5" PointX="26.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_ContactDedupeExceptions" Width="1.5" PointX="26.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_ContractSalesReps" Width="1.5" PointX="9.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_Languages" Width="1.5" PointX="26.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_RegionMembers" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_Regions" Width="1.5" PointX="10.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_RightGroupMembers" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_RightGroups" Width="1.5" PointX="12.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_Rights" Width="1.5" PointX="14.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.C_old_Territories" Width="1.5" PointX="16.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.inven_SystemSettings" Width="1.5" PointX="27.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.TimeLog" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.DefinitionIdentityTable" Width="1.5" PointX="0.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.IdentityOwnerTable" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InstanceMetadataChangesTable" Width="1.5" PointX="6.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InstancePromotedPropertiesTable" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.InstancesTable" Width="1.5" PointX="28.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.KeysTable" Width="1.5" PointX="18.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.LockOwnersTable" Width="1.5" PointX="20.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.RunnableInstancesTable" Width="1.5" PointX="25.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmTrack_AvailsModel.ServiceDeploymentsTable" Width="1.5" PointX="27.75" PointY="28.75" IsExpanded="true" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_AspectRatios_Avails_ContractMaterials" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_BusinessUnitMembers_Avails_BusinessUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ChannelMembers_Avails_LeftChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ChannelMembers_Avails_RightChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ChannelRelations_Avails_LeftChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ChannelRelations_Avails_RightChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Channels_GLSubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleChannels_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionRightChannelAssignments_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardRightChannelAssignments_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLineAllocations_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjectAllocations_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardRightChannelAssignments_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueAllocations_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCards_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleChannels_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionChannels_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemChannels_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_InvoiceLineItems_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShares_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardChannelAssignments_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightChannelMembers_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SystemUndeletableIds_Avails_Channels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactAccountStatusTypes_SystemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Contacts_Avails_ContactAccountStatusType" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactAlternateNames_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractParties_ContactAlternateNameId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactMethods_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactMethods_CountryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractParties_ContactMethodId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactRelationships_Avails_ContactRelationshipTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactRelationshipsLeft_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactRelationshipsRight_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactRoles_Avails_ContactRoleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactRoles_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContactRoleTypes_SystemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractParties_Avails_ContactRoleTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractGrossReceiptDispositions_ContactRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Agreements_RecoupmentAnalystId_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Contacts_Avails_FeeCalcIngestStatementTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Contacts_Avails_RoyaltyIngestionMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Contacts_GLSubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractParties_ContactId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractParties_SubContactId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractRoyaltyScheduleItems_Avails_Contacts_Vendors" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Contracts_Avails_Contacts_CollectionAgencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Contracts_Avails_Contacts_Licensees" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Contracts_Avails_Contacts_Licensors" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Contracts_Avails_Contacts_SalesAgencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_DefaultContacts_Licensee_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_DefaultContacts_Licensor_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_DefaultContacts_Vendor_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investments_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_InvestorPercentages_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Invoices_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_PaymentDisbursements_RecipientContactId_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_PaymentItems_InvestorId_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Payments_ContactId_Avails_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleChannels_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleLanguages_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleLanguages_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleProjects_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleRights_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleRights_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRules_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRules_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRules_dbo_InvoiceItemCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleTerritories_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjects_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCards_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractInvoiceScheduleItems_Avails_ContractAllocationRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractAllocationRuleTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_ContractBillingGroupChannels" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroupLanguages_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_ContractBillingGroupLanguages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroupProjectCategories_Avails_ContractBillingGroupProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroupProjectCategories_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_ContractBillingGroupProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_ContractBillingGroupRights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_ContractBillingGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_ContractBillingGroupTerritories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_RevenueRecognitionMethods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_Avails_ContractBillingGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_ContractBillingGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractBillingGroups_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCards_Avails_ContractNetCardCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractCards_Avails_ContractCardCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionLanguageAssignments_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionLanguageAssignments_dbo_ContractCardExclusions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionProjectAssignments_dbo_ContractCardExclusions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionRightAssignments_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionRightAssignments_dbo_ContractCardExclusions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionRightChannelAssignments_Avails_ContractCardExclusionRightAssignments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusions_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionTerritoryAssignments_dbo_ContractCardExclusions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardExclusionTerritoryAssignments_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardRightAssignments_Avails_ContractCardRightAssignments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardRightAssignments_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardRightAssignments_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardRightAssignments_HoldbackTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardRightChannelAssignments_ContractCardRightAssignmentId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractCardRightAssignments_Avails_HoldbackFromRightGroupId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardTerritoryAssignments_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractCardTerritoryAssignments_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCards_Avails_ContractNetCardViewType" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractCards_Avails_ContractCardViewType" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_avails_ContractCardViewType" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemFeeParameters_Avails_ContractFeeCalcDateMethods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemFeeParameters_Avails_ContractFeeCalcExecutionTimings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcIngestStatementInputValues_Avails_ContractFeeCalcIngestStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcIngestStatementInputValues_Avails_FeeCalcInputCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcIngestStatements_Avails_ContractFeeCalcIngestStatementTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcIngestStatements_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReports_Avails_ContractFeeCalcIngestStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcInputs_Avails_ContractFeeCalcInputTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcInputs_Avails_ContractProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcInputs_Avails_FeeCalcInputCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcInputs_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcInputTypes_Avails_FeeCalcInputTypeTargetDates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLineAllocations_Avails_ContractFeeCalcReportLines" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLineAllocations_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLineAllocations_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLineAllocations_dbo_LanguageCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLines_Avails_ContractFeeCalcReports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLines_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLines_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLines_dbo_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportLines_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenue_Avails_ContractFeeCalcReports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenue_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjects_Avails_ContractFeeCalcReportRevenue" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjectAllocations_Avails_ContractFeeCalcReportRevenueProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjectAllocations_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjectAllocations_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjectAllocations_dbo_LanguageCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjects_Avails_ContractFeeCalcReports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractFeeCalcReportRevenueProjects_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractGrossReceiptDispositions_Avails_DispositionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractGrossReceiptDispositions_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractGrossReceiptDispositions_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractHigherRankedParticipationsContracts_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractHigherRankedParticipationsContracts_Avails_ParticipationsReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractHigherRankedParticipationsContracts_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_ContractInvoiceScheduleItemProjectInstallments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemAllocations_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemDefaults_Avails_ContractInvoiceScheduleItemDefaultSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemDefaultSets_dbo_InvoiceItemCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemFeeParameters_dbo_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjectFeeCalcInputCategories_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjectFeeCalcInputCategories_Avails_FeeCalcInputCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjectInstallments_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjectInstallments_Avails_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjectInvoiceLineItems_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjects_Avails_ContractInvoiceScheduleItemProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjects_Avails_ContractProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjects_dbo_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementAreaMapping_Avails_ContractLedgerStatementsMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementAreaMapping_Avails_LedgerStatementAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementCategoryMapping_Avails_ContractLedgerStatementsMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementCategoryMapping_Avails_LedgerStatementCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementColumnMapping_Avails_ContractLedgerStatementsMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementCurrencyMapping_Avails_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementCurrencyMapping_Avails_ContractLedgerStatementsMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementItems_Avails_ContractLedgerStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementItems_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementItems_Avails_LedgerStatementAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementItems_Avails_LedgerStatementCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementItems_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementProjectMapping_Avails_ContractLedgerStatementsMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatementRightMapping_Avails_ContractLedgerStatementsMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractLedgerStatementRightMapping_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractLedgerStatements_ContractVersionSet" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractMaterials_Avails_ContractMaterialDeliveryStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SystemUndeletableIds_Avails_ContractMaterialDeliveryStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractMaterials_Avails_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractMaterials_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardLanguageAssignments_Avails_ContractNetCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardLanguageAssignments_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardProjectAssignments_Avails_ContractNetCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardRightAssignments_Avails_ContractNetCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardRightAssignments_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardRightAssignments_HoldbackTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardRightChannelAssignments_ContractNetCardRightAssignmentId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractNetCardRightAssignments_Avails_HoldbackFromRightGroupId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCards_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCards_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCards_dbo_LicenseTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardTerritoryAssignments_Avails_ContractNetCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractNetCardTerritoryAssignments_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractParties_ContractId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractProjectCategories_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractProjectCategories_dbo_ContractId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FinancialSummary_Avails_ContractProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_ContractProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractProjectPrices_ContractId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractProjectTelecastScheduleTerritories_ContractProjectTelecastSchedules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractProjectTelecastSchedules_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractProjectTelecastScheduleTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueAllocations_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueAllocations_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueAllocations_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueAllocations_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCardAllocations_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCards_Avails_ContractRevenueCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCards_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCards_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRevenueCards_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_Avails_ParticipationsStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_Avails_RoyaltyConsumptionHistoryRecordTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_Avails_RoyaltyReports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_ContractInvoiceScheduleItemId_dbo_ContractInvoiceScheduleItems_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_dbo_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_dbo_Invoices_SourceInvoiceId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyConsumptionHistory_SourceScheduleItemId_dbo_ContractInvoiceScheduleItems_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleChannels_Avails_ContractRoyaltyDeductionRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleLanguages_Avails_ContractRoyaltyDeductionRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleLanguages_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleProjects_Avails_ContractRoyaltyDeductionRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleReportingColumns_Avails_ContractRoyaltyDeductionRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleReportingColumns_Avails_ParticipationsReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleReportingColumns_Avails_RoyaltyReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleRights_Avails_ContractRoyaltyDeductionRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleRights_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRules_Avails_RoyaltyDeductionRuleCombinationOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRules_Avails_RoyaltyDeductionRuleTimingOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRules_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleTerritories_Avails_ContractRoyaltyDeductionRules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDeductionRuleTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionAttributeSets_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionAttributeSets_Avails_RoyaltyAttributes1" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionAttributeSets_Avails_RoyaltyAttributes2" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTiers_Avails_ContractRoyaltyDefinitionAttributeSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionChannels_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionLanguages_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionLanguages_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionProjects_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionReserves_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionReserves_Avails_ParticipationsReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionReserves_Avails_ParticipationsReserveTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionRights_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionRights_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitions_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitions_CorridorFeeColumnTypeId_Avails_ParticipationsReportingColumns_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitions_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitions_FixedFeeColumnTypeId_Avails_ParticipationsReportingColumns_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTerritories_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTiers_Avails_ContractRoyaltyDefinitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLines_CorridorFeeDefinitionId_Avails_ContractRoyaltyDefinitions_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLines_FixedFeeDefinitionId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShares_ResolvedContractRoyaltyDefinitionId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_ResolvedContractRoyaltyDefinitionId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTiers_Avails_RoyaltyCalculationBasis" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTiers_Avails_RoyaltyCalculationMethods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTiers_Avails_RoyaltyRecoupmentPeriods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyDefinitionTiers_Avails_RoyaltyUpperLimitTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedulePeriodDates_Avails_ContractRoyaltyReportingSchedulePeriods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedulePeriodDates_Avails_ParticipationsStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedulePeriodDates_Avails_RoyaltyReports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedulePeriods_Avails_ContractRoyaltyReportingSchedules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedulePeriods_Avails_RecurrenceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedules_Avails_ContractRoyaltyReportingScheduleProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractRoyaltyReportingSchedules_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractShipmentMaterials_Avails_ContractShipmentMaterialTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractShipmentMaterials_Avails_ContractShipments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractShipmentMaterials_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractShipmentMaterials_Avails_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractShipments_Common_ShippingCompanies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractShipments_ContractVersionSet" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemChannels_ContractTimelineItem" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemLanguages_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemLanguages_ContractTimelineItem" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemProjects_ContractTimelineItem" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemRights_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemRights_ContractTimelineItem" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemTypeRoles_RoleTypeCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItems_Avails_ContractTimelineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItems_Contract" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItems_ContractTimelineItemType" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemTerritories_ContractTimelineItem" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemTypeRoles_ContractTimelineItemTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractTimelineItemTypes_SystemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractVersionSets_dbo_Contracts_ContractId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReports_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsStatements_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReports_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_Avails_ContractVersionSets_ContractVersionSetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Invoices_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_LedgerItems_Avails_ContractVersionSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Posted_Avails_ContractVersionSet_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ExchangeRates_Avails_Currencies_FromCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ExchangeRates_Avails_Currencies_ToCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReports_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractReleaseData_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyScheduleItemDetail_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Invoices_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Payments_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_RegionAskingPrices_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_TerritoryAskingPrices_Avails_Currencies" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_EventSubscriptionTemplates_Avails_EventSources" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_EventSubscriptions_Avails_EventSubscriptionStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ExchangeRates_Avails_ExchangeRateCloseDates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FavoriteSearches_Search_SavedSearch" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FeeCalcIngestStatementTemplates_Avails_FeeCalcAggregateOperations" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_FeeCalcAggregateOperations" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_FeeCalcGuaranteeEvaluationOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FeeCalcIngestStatementTemplateInputs_Avails_FeeCalcIngestStatementTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FeeCalcIngestStatementTemplateInputs_Avails_FeeCalcInputCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FeeCalcIngestStatementTemplates_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_FeeCalcReallocationMethods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FinancialSummary_dbo_ContractId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_FinancialSummary_dbo_ProducerContractId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceItemCategories_Avails_InvoiceItemCategorySystemCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_InvoiceLineItemAllocations_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_InvoiceLineItemAllocations_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_InvoiceLineItems_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_InvoiceLineItems_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_InvoiceLineItems_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Invoices_Avails_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsStatements_InvoiceId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReports_InvoiceId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_SavedSearchInvoices_Avails_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceActionLogEntries_dbo_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItems_dbo_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Invoices_Avails_ValidationTargetTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Invoices_TaxTypeId_Avails_TaxTypes_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Invoices_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_WorkflowTransitionAttempts_Avails_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_LanguageMembers_LeftLanguageCode_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_LanguageMembers_RightLanguageCode_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShares_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardLanguageAssignments_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatementLines_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryLanguageMembers_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractCardLanguageAssignments_Avails_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Languages_GeneralLedger_GLSubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_LicenseTypes_Avails_LicenseBehaviors" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivity_Avails_ParticipationsActivityTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_ParticipationsActivity" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_RoyaltyAttributes1" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_RoyaltyAttributes2" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_dbo_InvoiceLineItemPayments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLines_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLineValues_ParticipationsActivityLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLines_ParticipationsActivityLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsActivityLineValues_ParticipationsActivityingColumnId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingCalculatedColumns_Avails_ParticipationsIngestionMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingCalculatedColumns_Avails_ParticipationsReportingColumns_LeftInputColumnId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingCalculatedColumns_Avails_ParticipationsReportingColumns_ResultantColumnId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingCalculatedColumns_Avails_ParticipationsReportingColumns_RightInputColumnId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingColumns_Avails_ParticipationsIngestionMappingColumnTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingColumns_Avails_ParticipationsIngestionMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingColumns_Avails_ParticipationsReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingTranslations_Avails_ParticipationsIngestionMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsIngestionMappingTranslations_Avails_ParticipationsIngestionMappingTranslationTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportingColumns_Avails_ParticipationsReportingColumnTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineValues_ParticipationsReportingColumnId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReserveTypeReportingColumns_Avails_ParticipationsReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLines_ParticipationsReportId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShares_ParticipationsReportLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineValues_ParticipationsReportLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsStatementReportLines_ParticipationsReportLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShareCalculations_ParticipationsReportLineShareId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShareReserves_Avails_ParticipationsReportLineShares" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShareReserves_Avails_ParticipationsReserveTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineValues_Avails_ParticipationsReportLineShareReserves" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShares_RightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReportLineShares_TerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsStatementReports_ParticipationsReportId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsReserveTypeReportingColumns_Avails_ParticipationsReserveTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsStatementReportLines_ParticipationsStatementReportId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ParticipationsStatementReports_ParticipationsStatementId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardChannelAssignments_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardContractCards_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ProjectAltCardContractCards_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardLanguageAssignments_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardProjectAssignments_dbo_LicenseTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardProjectAssignments_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardProjectSelections_dbo_LicenseTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardProjectSelections_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardRightAssignments_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardRightAssignments_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCards_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardTerritoryAssignments_ProjectAltCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ProjectAltCardTerritoryAssignments_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatementLines_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_Avails_ProjectCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RecurrenceTypeDaysOfWeekMembers_Avails_RecurrenceDaysOfWeek" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_RecurrenceDaysOfWeek" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_RecurrenceMonthlySequences" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RecurrenceTypeDaysOfWeekMembers_Avails_RecurrenceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_Avails_RecurrenceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportCriteriaDefaultAmounts_dbo_ReportCriteriaDefaultSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportQueueItemEvents_ReportQueueItemEventTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportQueueItemEvents_ReportQueueItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportQueueItems_ReportOutputTypeName" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportQueueItems_ReportQueueItemStatusTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportQueueItems_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ReportQueueItems_SessionId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RevenueRecognitionMethodInvoiceCategories_Avails_RevenueRecognitionMethods" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RevenueRecognitionMethodInvoiceCategories_dbo_InvoiceItemCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightChannelMembers_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightMembers_Avails_LeftRightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightMembers_Avails_RightRightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightRelations_Avails_LeftRightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightRelations_Avails_RightRightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightRoles_RightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RightRoles_RoleTypeCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Rights_GLSubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Rights_TypeCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_RightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_RightId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractReleaseData_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractRoyaltyScheduleItems_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SystemUndeletableIds_Avails_Rights" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Attribute1Id_Avails_RoyaltyAttributes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Attribute2Id_Avails_RoyaltyAttributes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_Attribute1Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_Attribute2Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestionMappingColumns_Avails_RoyaltyIngestionMappingColumnTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestionMappingColumns_Avails_RoyaltyIngestionMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestionMappingColumns_Avails_RoyaltyReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestionMappingTranslations_Avails_RoyaltyIngestionMappings" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestionMappingTranslations_Avails_RoyaltyIngestionMappingTranslationTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatementLineErrors_Avails_RoyaltyIngestStatementLines" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_PK_Avails_RoyaltyIngestStatementLineValues_Avails_RoyaltyIngestStatementLines" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatementLines_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Avails_RoyaltyIngestStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatements_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyIngestStatementLineValues_Avails_RoyaltyReportingColumns" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReports_Avails_RoyaltyIngestStatements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportingColumns_Avails_RoyaltyReportingColumnTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineValues_RoyaltyReportingColumnId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_RoyaltyReportId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLines_TerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_RoyaltyReportLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineValues_RoyaltyReportLineId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShareCalculations_RoyaltyReportLineShareId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_RoyaltyReportLineShares_TerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_SavedSearchContracts_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_SavedSearchContracts_Search_SavedSearch" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_SavedSearchInvoices_Search_SavedSearch" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_SystemSettingsMenuItems_Avails_SystemSettingsMenuItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TaxRates_Avails_TaxTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_SecondaryTaxTypeId_Avails_TaxTypes_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_TaxTypeId_Avails_TaxTypes_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Territories_GLSubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Territories_RegionZoneId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_Territories_TypeCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryLanguageMembers_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryMembers_Avails_LeftTerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryMembers_Avails_RightTerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryRelations_Avails_LeftTerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryRelations_Avails_RightTerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryRoles_TerritoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractReleaseTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractReportingRegions_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractRoyaltyTerritories_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_RegionAskingPrices_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SystemUndeletableIds_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_TerritoryAskingPrices_Avails_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_TerritoryRoles_RoleTypeCode" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_CountryLanguages_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_SystemAuditLog_AuditActionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_SystemAuditLogEntries_dbo_AuditActionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_SystemAuditLogEntryValues_Common_SystemAuditLogEntries" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularCells_TabularColumnNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularCells_TabularFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularCells_TabularRowNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularColumns_TabularFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularColumns_TabularPages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularPages_TabularFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularRows_TabularFiles" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Common_TabularRows_TabularPages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ContractMaterialItemTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Agreements_dbo_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItemProjects_dbo_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItemProjects_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_AuditLog_dbo_AuditActionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractStatuses_dbo_AvailabilityEffects_AcquisitionAvailabilityEffect" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractStatuses_dbo_AvailabilityEffects_SaleAvailabilityEffect" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_LicenseTypes_dbo_AvailabilityEffects_AcquisitionAvailabilityEffect" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_LicenseTypes_dbo_AvailabilityEffects_SaleAvailabilityEffect" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ChaseActions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_ContractBatches" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractCardLanguageAssignments_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractCardProjectAssignments_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ContractCards_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractCards_dbo_LicenseTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractJournalEntries_dbo_ContractCards" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractConditions_dbo_ContractConditionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractConditions_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_ContractDealStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractDealTypes_Workflow_WorkflowStates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_ContractDealTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ContractDealTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractJournalEntries_dbo_ContractDocumentTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ContractDocumentTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_dbo_ContractInvoiceScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractInvoiceScheduleItems_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractJournalEntries_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractJournalEntries_dbo_FunctionalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractJournalEntries_dbo_LogActions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractJournalEntries_dbo_ResponsibleParties_ResponsiblePartyId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractReleaseBoxOffice_dbo_ContractReleaseData" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractReleaseData_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractReleaseTerritories_dbo_ContractReleaseData" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractReportingRegions_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyData_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyProjects_dbo_ContractRoyaltyData" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyScheduleItems_dbo_ContractRoyaltyData" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyTerritories_dbo_ContractRoyaltyData" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyScheduleItemDetail_dbo_ContractRoyaltyLineItemTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractRoyaltyScheduleItemDetail_dbo_ContractRoyaltyScheduleItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contacts_GLSubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_ContractStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_ContractTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_PeriodTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_ResponsibleParties" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_dbo_VideoFormatTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Contracts_Workflow_WorkflowStates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_OtherDataAttributeValues_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_WorkflowTransitionAttempts_dbo_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ContractStatuses_dbo_NegotiationStages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ContractStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_OtherDataAttributes_dbo_DataTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaTypes_dbo_DataTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelColumnSettingOverrides_dbo_ExcelHorizontalAlignments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelColumnSettings_dbo_ExcelHorizontalAlignments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelGlobalSettingOverrides_dbo_ExcelPaperOrientations" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelGlobalSettings_dbo_ExcelPaperOrientations" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelGlobalSettingOverrides_dbo_ExcelPaperSizes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelGlobalSettings_dbo_ExcelPaperSizes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelColumnSettingOverrides_dbo_ExcelVerticalAlignments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelColumnSettings_dbo_ExcelVerticalAlignments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_FunctionalAreas_dbo_FunctionalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceActionLogEntries_dbo_FunctionalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_FunctionalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItems_dbo_GLAccounts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Payments_dbo_GLAccounts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_InvoiceItemCategories_GLAccounts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_HoldbackTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_InvoiceActionCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceActionLogEntries_dbo_LogActions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceActionLogEntries_dbo_ResponsibleParties" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItemPaymentSplits_dbo_InvoiceItemCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_PaymentDisbursements_dbo_InvoiceItemCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_InvoiceItemCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItemPayments_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItemPayments_dbo_Payments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItemPaymentSplits_dbo_InvoiceLineItemPayments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_ContractInvoiceScheduleItemProjectInvoiceLineItems_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_InvoiceLineItems_dbo_InvoiceLineItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_LogActions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_OtherDataAttributes_dbo_OtherDataAttributeSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_OtherDataAttributeValues_dbo_OtherDataAttributes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_FieldAttributeId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_OtherDataAttributeSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_PaymentDisbursements_dbo_Payments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_RegionZones" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportAvailableCriteriaTypes_dbo_ReportCriteriaTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportAvailableCriteriaTypes_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ReportAvailsKeys_ReportCriteriaSessions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteria_dbo_ReportCriteriaSessions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteria_dbo_ReportCriteriaTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaBatchYearsChoices_dbo_ReportCriteriaSessions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDateChoices_dbo_ReportCriteriaSessions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ReportCriteriaDefaultDateChoices_dbo_ReportCriteriaDefaults" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ReportCriteriaDefaultDates_dbo_ReportCriteriaDefaults" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_ReportCriteriaDefaultDisplayChoices_dbo_ReportCriteriaDefaults" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDefaults_dbo_ReportCriteriaDefaultSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDefaults_dbo_ReportCriteriaTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDefaultsDateChoices_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDefaultsDisplayItems_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDefaultStringValues_dbo_ReportCriteriaDefaultSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_Reports_dbo_ReportCriteriaDefaultSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ReportCriteriaDefaultSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaDefaultStringValues_dbo_ReportCriteriaTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaStringValues_dbo_ReportCriteriaSessions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportCriteriaStringValues_dbo_ReportCriteriaTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelColumnSettingOverrides_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelColumnSettings_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelConditionalFormatSettings_dbo_ReportExcelFormatConditionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelConditionalFormatSettings_dbo_ReportExcelFormatOperatorTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelConditionalFormatSettings_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelGlobalSettingOverrides_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportExcelGlobalSettings_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportGroupMembers_dbo_ReportGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportGroupMembers_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ReportGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportOutputsAvailable_dbo_ReportOutputs" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_ReportOutputsAvailable_dbo_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_SystemUndeletableIds_dbo_ResponsibleParties" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SystemUndeletableIds_GeneralLedger_LockoutDates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_vault_Categories_dbo_vault_Applications" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_vault_Files_dbo_vault_Applications" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_dbo_vault_Files_dbo_vault_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ChannelSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactAgentSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactBillToSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactDepartmentSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactLicenseeSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactLicensorSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactOtherSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactRemitToSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactSalesEntitySubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContactSalespersonSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContractDealTypeSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ContractSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_LanguageSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_MainAccountSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_ProjectSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_RightSubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Accounts_TerritorySubsetId_GeneralLedger_Subsets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_AccountStructure_Source_GeneralLedger_SubsetSources" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_ChartOfAccounts_GeneralLedger_AccountTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_ChartOfAccounts_GeneralLedger_MainAccountSegments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_MainAccountSegments_SubsetId" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_GeneralLedger_Subsets_Source_GeneralLedger_SubsetSources" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_HangFire_JobParameter_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_HangFire_State_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Budgets_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Investments_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_LedgerItems_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Logs_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_OtherDataAttributeValues_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Payments_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Schedules_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Terms_Investment_Agreements" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Budgets_Investment_BudgetCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_LedgerItems_Investment_FinancialPeriodTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Investments_Investment_InvestmentTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_InvestorPercentages_Investment_PercentageTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_InvestorPercentages_Investment_Schedules" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_PaymentItems_Investment_InvestorPercentages" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_LedgerItems_Investment_LedgerCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_LedgerItems_Adjustment_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_LedgerItems_Investment_LedgerSourceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_PaymentItemReceipts_Investment_LedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Logs_Investment_LogActionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_Logs_Investment_ResponsiblePartyTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_OtherDataAttributes_Investment_OtherDataAttributeSets" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_OtherDataAttributeValues_Investment_OtherDataAttributes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_PaymentItemReceipts_Investment_PaymentItems" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Investment_PaymentItems_Investment_Payments" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Fields_DisplayGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_DisplayTemplateColumns_Search_DisplayTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_DisplayTemplateColumns_Search_Field" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_DisplayTemplates_Search_SavedSearch" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Fields_Tables" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_SavedSearch_Search_Fields" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_SavedSearchCriteria_Search_Fields" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_SavedSearchView_Search_Fields" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SavedSearchCriteria_SavedSearch" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_SavedSearchView_SavedSearch" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Search_SavedSearch_Search_SearchTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Tables_Tables" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_TransitionActions_Workflow_Actions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_WorkflowStates_Avails_ValidationTargetTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_Workflows_Workflow_TargetTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_TransitionActionConfigurations_Workflow_TransitionActions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK__Transitio__Trans__52C5E4DB" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_TransitionActions_Workflow_WorkflowTransitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_TransitionAttemptActionResults_Workflow_TransitionActions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK__Transitio__Trans__54AE2D4D" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_TransitionAttemptActionResultMessages_Workflow_TransitionAttemptActionResults" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_TransitionAttemptActionResults_Workflow_WorkflowTransitionAttempts" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_WorkflowTransitions_Workflow_Workflows" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.Workflow_Workflows_NewEntryStateId_Workflow_WorkflowStates_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.Workflow_Workflows_RevisionEntryStateId_Workflow_WorkflowStates_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_WorkflowStateTransitions_Avails_WorkflowStates_From" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Avails_WorkflowStateTransitions_Avails_WorkflowStates_To" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_Workflow_TransitionAttempts_Workflow_WorkflowTransitions" ManuallyRouted="false" />
+        <AssociationConnector Association="FilmTrack_AvailsModel.FK_Workflow_WorkflowTransitionRoles_Workflow_WorkflowTransitions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

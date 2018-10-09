@@ -6,7 +6,7 @@ namespace TestProj.Business.FindDupes
 {
     public class FindDupes
     {
-        public List<string> DuplicateFiles { get; set; }
+        public List<CustomFileInfo> DuplicateFiles { get; set; }
 
         public enum ComparisonType
         {
@@ -43,7 +43,8 @@ namespace TestProj.Business.FindDupes
 
 
             //IEnumerable<CustomFileInfo> duplicates = x.Intersect(y, new CustomFileInfoComparer());
-            var duplicates = x.Intersect(y, new CustomFileInfoComparer()).ToList();
+            //var duplicates = x.Intersect(y, new CustomFileInfoComparer()).ToList();
+            DuplicateFiles = x.Intersect(y, new CustomFileInfoComparer()).ToList();
 
         }
 

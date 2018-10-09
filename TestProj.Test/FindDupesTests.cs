@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System.Diagnostics;
 using TestProj.Business.FindDupes;
 
 namespace TestProj.Test
@@ -14,6 +15,10 @@ namespace TestProj.Test
 
             var obj = new FindDupes(f1, f2, "*.cs");
 
+            foreach (var item in obj.DuplicateFiles)
+            {
+                Trace.WriteLine(item.ToString());
+            }
 
         }
 

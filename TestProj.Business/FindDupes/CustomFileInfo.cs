@@ -10,7 +10,7 @@ namespace TestProj.Business.FindDupes
     {
         public string FullName { get; set; }
 
-        public List<string> Locations { get; set; }
+        public IList<string> Locations { get; set; }
 
         public string Name { get; set; }
 
@@ -20,18 +20,14 @@ namespace TestProj.Business.FindDupes
 
         public CustomFileInfo(string filename)
         {
+            this.Locations = new List<string>();
+
             var fi = new FileInfo(filename);
             FullName = fi.FullName;
             Name = fi.Name;
             Size = fi.Length;
-
             Hash = GetChecksum(this.FullName);
         }
-
-        //public void CalculateHash()
-        //{
-        //    Hash = GetChecksum(this.FullName);
-        //}
 
         public static string GetChecksum(string file)
         {
@@ -52,6 +48,12 @@ namespace TestProj.Business.FindDupes
             result.AppendLine("FullName: " + FullName);
             result.AppendLine("Size: " + Size);
             result.AppendLine("Hash: " + Hash);
+            result.AppendLine("Locations:");
+
+            foreach (var item in this.Locations)
+            {
+                result.AppendLine("    "+ item);
+            }
 
             return result.ToString();
         }

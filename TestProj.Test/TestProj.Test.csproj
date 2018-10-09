@@ -97,13 +97,13 @@
     <Content Include="FindDupes\Files1\Document5.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="FindDupes\Files2\Document1.txt">
+    <Content Include="FindDupes\Files2\File1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="FindDupes\Files2\Document2.txt">
+    <Content Include="FindDupes\Files2\File2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="FindDupes\Files2\Document4.txt">
+    <Content Include="FindDupes\Files2\File4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

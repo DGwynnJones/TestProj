@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassUnderTest.cs" />
+    <Compile Include="FindDupes\CustomFileInfoComparer.cs" />
+    <Compile Include="FindDupes\CustomFileInfo.cs" />
+    <Compile Include="FindDupes\FindDupes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

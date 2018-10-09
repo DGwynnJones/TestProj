@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -24,27 +25,32 @@ namespace TestProj.Business.FindDupes
             var files1 = Directory.GetFiles(rootFolder1, pattern, SearchOption.AllDirectories).ToList();
             var files2 = Directory.GetFiles(rootFolder2, pattern, SearchOption.AllDirectories).ToList();
 
-            //var x = files1.Select(g => new CustomFileInfo(g)).ToList();
-            //var y = files2.Select(g => new CustomFileInfo(g)).ToList();
             var x = files1.Select(g => new CustomFileInfo(g));
             var y = files2.Select(g => new CustomFileInfo(g));
 
-            //var intersect = 
-            //this.DuplicateFiles = files1.Select(i => i.ToString()).Intersect(files2).ToList();
-
-            //var results = files1.Intersect(files2, StringComparer.OrdinalIgnoreCase).ToList();
-            //var results = x.Intersect(y, StringComparer.OrdinalIgnoreCase).ToList();
-
-            //var intersection = x.Where(q => y.Intersect(y, new CustomFileInfoComparer()).Any()).ToList();
-
-            //var results = x.Join(y, o => o.Name, id => id, (o, id) => o);
-
-            //var list3 = x.Intersect(y, new CustomFileInfoComparer<CustomFileInfo>());
-
-
-            //IEnumerable<CustomFileInfo> duplicates = x.Intersect(y, new CustomFileInfoComparer());
-            //var duplicates = x.Intersect(y, new CustomFileInfoComparer()).ToList();
             DuplicateFiles = x.Intersect(y, new CustomFileInfoComparer()).ToList();
+
+            var source = y.ToList();
+
+            foreach (var item in DuplicateFiles)
+            {
+                var www = source.Where(_ => _.Hash == item.Hash).ToList();
+
+                if (www.Count > 1)
+                {
+
+                    Trace.WriteLine("***********");
+                    foreach (var foundItem in www)
+                    {
+                        Trace.WriteLine("");
+                        Trace.WriteLine(foundItem.ToString());
+                    }
+                    Trace.WriteLine("***********");
+                    Trace.WriteLine("");
+                }
+            }
+
+            // var duplicateFiles2 = y.Intersect(x, new CustomFileInfoComparer()).ToList();
 
         }
 

@@ -1,4 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace TestProj.Business.FindDupes
@@ -7,26 +10,48 @@ namespace TestProj.Business.FindDupes
     {
         public string FullName { get; set; }
 
+        public List<string> Locations { get; set; }
+
         public string Name { get; set; }
+
+        public string Hash { get; set; }
 
         public long Size { get; set; }
 
         public CustomFileInfo(string filename)
         {
             var fi = new FileInfo(filename);
-            this.FullName = fi.FullName;
-            this.Name = fi.Name;
-            this.Size = fi.Length;
+            FullName = fi.FullName;
+            Name = fi.Name;
+            Size = fi.Length;
+
+            Hash = GetChecksum(this.FullName);
+        }
+
+        //public void CalculateHash()
+        //{
+        //    Hash = GetChecksum(this.FullName);
+        //}
+
+        public static string GetChecksum(string file)
+        {
+            using (FileStream stream = File.OpenRead(file))
+            {
+                var sha = new SHA256Managed();
+                byte[] checksum = sha.ComputeHash(stream);
+                return BitConverter.ToString(checksum).Replace("-", String.Empty);
+            }
         }
 
         public override string ToString()
         {
             var result = new StringBuilder();
 
-            result.AppendLine(string.Format("[{0}]", this.GetType().FullName));
-            result.AppendLine("Name: " + this.Name);
-            result.AppendLine("FullName: " + this.FullName);
-            result.AppendLine("Size: " + this.Size);
+            result.AppendLine(string.Format("[{0}]", GetType().FullName));
+            result.AppendLine("Name: " + Name);
+            result.AppendLine("FullName: " + FullName);
+            result.AppendLine("Size: " + Size);
+            result.AppendLine("Hash: " + Hash);
 
             return result.ToString();
         }

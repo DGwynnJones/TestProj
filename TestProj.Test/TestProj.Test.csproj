@@ -57,7 +57,9 @@
   <ItemGroup>
     <Compile Include="BasicTests.cs" />
     <Compile Include="DataTests.cs" />
+    <Compile Include="DirectoryInfoExtensions.cs" />
     <Compile Include="FindDupesTests.cs" />
+    <Content Include="FindDupes\Files1\Unique.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testing\TestBase.cs" />
   </ItemGroup>

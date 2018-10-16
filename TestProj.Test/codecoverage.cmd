@@ -1,5 +1,5 @@
-﻿rem @echo off
-rem @echo off
+﻿@echo off
+@echo off
 
 cls
 cls

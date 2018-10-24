@@ -58,6 +58,7 @@
     <Compile Include="BasicTests.cs" />
     <Compile Include="DataTests.cs" />
     <Compile Include="DirectoryInfoExtensions.cs" />
+    <Compile Include="EFCodeFirstTests.cs" />
     <Compile Include="FindDupesTests.cs" />
     <Content Include="FindDupes\Files1\Unique.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +81,10 @@
     <ProjectReference Include="..\TestProj.Data\TestProj.Data.csproj">
       <Project>{c48f76d4-a059-45bf-b76b-6778423a22c0}</Project>
       <Name>TestProj.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestProj.EFCodeFirst\TestProj.EFCodeFirst.csproj">
+      <Project>{c257ceac-062a-4d30-bf61-8b41a9bf51c0}</Project>
+      <Name>TestProj.EFCodeFirst</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

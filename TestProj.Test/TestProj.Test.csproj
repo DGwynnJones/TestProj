@@ -44,6 +44,9 @@
     <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="SA.UnitTestingHelper">
+      <HintPath>..\..\SA.Utilities\SA.UnitTesting\bin\Debug\SA.UnitTestingHelper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -58,7 +61,7 @@
     <Compile Include="BasicTests.cs" />
     <Compile Include="DataTests.cs" />
     <Compile Include="DirectoryInfoExtensions.cs" />
-    <Compile Include="EFCodeFirstTests.cs" />
+    <Compile Include="EFCodeFirstTests\EFCodeFirstTests.cs" />
     <Compile Include="FindDupesTests.cs" />
     <Content Include="FindDupes\Files1\Unique.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />

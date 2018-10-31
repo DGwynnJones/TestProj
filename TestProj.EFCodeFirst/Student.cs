@@ -10,6 +10,7 @@ namespace TestProj.EFCodeFirst
     {
         public int StudentID { get; set; }
         public string StudentName { get; set; }
+        public string FirstName { get; set; }
         public DateTime? DateOfBirth { get; set; }
         public byte[] Photo { get; set; }
         public decimal Height { get; set; }

@@ -11,7 +11,9 @@ namespace TestProj.Test
         [Test]
         public void Basic_()
         {
+
             Application.Main();
+
         }
     }
 }

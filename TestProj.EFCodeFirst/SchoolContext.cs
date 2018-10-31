@@ -7,7 +7,11 @@ namespace TestProj.EFCodeFirst
         public DbSet<Student> Students { get; set; }
         public DbSet<Grade> Grades { get; set; }
 
-        public SchoolContext() : base() //base("Conn")
+        public SchoolContext() : base()
+        {
+        }
+
+        public SchoolContext(string nameOrConnectionString) : base(nameOrConnectionString) //base("Conn")
         {
         }
     }

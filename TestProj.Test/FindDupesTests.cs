@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using SA.UnitTestingHelper;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -9,7 +10,6 @@ namespace TestProj.Test
     [TestFixture]
     public class FindDupesTests : TestBase
     {
-
         [Test]
         public void Find_Dupes()
         {
@@ -24,13 +24,12 @@ namespace TestProj.Test
             {
                 Trace.WriteLine(item.ToString());
             }
-
         }
 
         [Test]
         public void Find_Dupes_2()
         {
-            var dir1 = TestFolder(@".\FindDupes\Files1");
+            var dir1 = base.TestFolder(@".\FindDupes\Files1");
             var dir2 = TestFolder(@".\FindDupes\Files2");
 
             var obj = new FindDupes(dir1, dir2, "*.*");
@@ -60,7 +59,6 @@ namespace TestProj.Test
             //{
             //    Trace.WriteLine(item.ToString());
             //}
-
         }
 
         [Test]
@@ -69,10 +67,9 @@ namespace TestProj.Test
             CreateTestFiles();
 
             //var obj = new FindDupes(dir1, dir2, "*.*");
-
         }
 
-            private void CreateTestFiles()
+        private void CreateTestFiles()
         {
             const string DUPLICATE_CONTENT = "Duplicate content.";
 
@@ -90,8 +87,6 @@ namespace TestProj.Test
             File.WriteAllText(folder2.GetFilename("file1.txt"), DUPLICATE_CONTENT);
             File.WriteAllText(folder2.GetFilename("file2.txt"), "Unique content: " + DateTime.Now.Ticks);
             File.WriteAllText(folder2.GetFilename("file3.txt"), DUPLICATE_CONTENT);
-
         }
-
     }
 }

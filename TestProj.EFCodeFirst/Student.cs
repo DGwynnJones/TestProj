@@ -9,12 +9,13 @@ namespace TestProj.EFCodeFirst
     public class Student
     {
         public int StudentID { get; set; }
-        public string StudentName { get; set; }
         public string FirstName { get; set; }
+        public string LastName { get; set; }
         public DateTime? DateOfBirth { get; set; }
         public byte[] Photo { get; set; }
         public decimal Height { get; set; }
         public float Weight { get; set; }
+        public string Remarks { get; set; }
 
         public Grade Grade { get; set; }
     }

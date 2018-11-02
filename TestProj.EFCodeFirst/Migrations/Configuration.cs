@@ -9,7 +9,7 @@ namespace TestProj.EFCodeFirst.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(TestProj.EFCodeFirst.SchoolContext context)

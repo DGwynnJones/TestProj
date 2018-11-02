@@ -8,7 +8,12 @@
             context.Students.RemoveRange(context.Students);
             context.Grades.RemoveRange(context.Grades);
 
-            var gradeCredit = new Grade() { GradeName = "Credit", Section = "Art" };
+            var gradeCredit = new Grade()
+            {
+                GradeName = "Credit",
+                Section = "Art",
+                GradeValue = 5
+            };
 
             for (int i = 0; i < 10; i++)
             {

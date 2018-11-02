@@ -5,7 +5,6 @@ namespace TestProj.EFCodeFirst
     {
         public static void Main()
         {
-            // var dbName = "TestProj.EFCodeFirst_" + DateTime.Now.Ticks;
             var dbName = "TestProj.EFCodeFirst.SchoolContext";
 
             using (var ctx = new SchoolContext(dbName))

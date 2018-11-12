@@ -20,13 +20,13 @@ namespace TestProj.Business.FindDupes
 
         public CustomFileInfo(string filename)
         {
-            this.Locations = new List<string>();
+            Locations = new List<string>();
 
             var fi = new FileInfo(filename);
             FullName = fi.FullName;
             Name = fi.Name;
             Size = fi.Length;
-            Hash = GetChecksum(this.FullName);
+            Hash = GetChecksum(FullName);
         }
 
         public static string GetChecksum(string file)
@@ -50,13 +50,12 @@ namespace TestProj.Business.FindDupes
             result.AppendLine("Hash: " + Hash);
             result.AppendLine("Locations:");
 
-            foreach (var item in this.Locations)
+            foreach (var item in Locations)
             {
-                result.AppendLine("    "+ item);
+                result.AppendLine("    " + item);
             }
 
             return result.ToString();
         }
-
     }
 }

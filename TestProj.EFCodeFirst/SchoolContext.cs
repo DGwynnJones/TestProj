@@ -25,4 +25,3 @@ namespace TestProj.EFCodeFirst
         }
     }
 }
-

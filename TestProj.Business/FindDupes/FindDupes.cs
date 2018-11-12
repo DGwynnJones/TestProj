@@ -20,17 +20,14 @@ namespace TestProj.Business.FindDupes
         public List<CustomFileInfo> SetA { get; set; }
         public List<CustomFileInfo> SetB { get; set; }
 
-
         //public FindDupes(string rootFolder)
         //{
-
         //}
 
         public FindDupes(string rootFolder1, string rootFolder2, string pattern)
         {
             var files1 = Directory.GetFiles(rootFolder1, pattern, SearchOption.AllDirectories).ToList();
             var files2 = Directory.GetFiles(rootFolder2, pattern, SearchOption.AllDirectories).ToList();
-
 
             var x = files1.Select(g => new CustomFileInfo(g));
             var y = files2.Select(g => new CustomFileInfo(g));
@@ -65,8 +62,6 @@ namespace TestProj.Business.FindDupes
                     Trace.WriteLine("NO dupes found for " + item.Hash);
                 }
             }
-
-
         }
 
         public override string ToString()
@@ -80,7 +75,5 @@ namespace TestProj.Business.FindDupes
 
             return result.ToString();
         }
-
-
     }
 }

@@ -2,7 +2,6 @@
 {
     public class ClassUnderTest
     {
-
         public static string SatHello(string name)
         {
             return "Hello " + name;
@@ -12,6 +11,5 @@
         {
             return "Hello " + name;
         }
-
     }
 }

@@ -51,8 +51,6 @@
 //        return Path.Combine(this.TestFolder(), subFolder);
 //    }
 
-
-
 //    //public static string GetConnectionString(DatabaseType databaseType)
 //    //{
 //    //    var result = "";

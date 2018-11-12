@@ -24,8 +24,6 @@ namespace TestProj.Web.Controllers
 
             var context = new SchoolContext("TestDBEntities"); // "TestProj.EFCodeFirst.SchoolContext");
 
-
-
             var x = context.Students
                             .Where(b => b.FirstName == "Bill")
                             .FirstOrDefault();
@@ -33,7 +31,6 @@ namespace TestProj.Web.Controllers
             var employees = context.Students.ToList();
 
             return View(employees);
-
         }
 
         public ActionResult Contact()

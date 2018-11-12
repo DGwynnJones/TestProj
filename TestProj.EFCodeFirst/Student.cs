@@ -37,7 +37,7 @@ namespace TestProj.EFCodeFirst
             result.AppendLine("CurrentGradeId: " + CurrentGradeId);
 
             result.Append("Grade: ");
-            if (this.Grade != null)
+            if (Grade != null)
             {
                 result.AppendLine(Grade.GradeName);
             }

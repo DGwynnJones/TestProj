@@ -8,14 +8,16 @@ namespace TestProj.Test
     [TestFixture]
     public class EFCodeFirstTests
     {
+        private string _dbName = "TestProj.EFCodeFirst.SchoolContext";
+
         [Test]
         public void Basic_()
         {
-            var dbName = "TestProj.EFCodeFirst.SchoolContext";
+            var testData = new TestData();
 
-            using (var ctx = new SchoolContext(dbName))
+            using (var ctx = new SchoolContext(_dbName))
             {
-                TestData.DeleteAndRecreate(ctx);
+                testData.DeleteAndRecreate(ctx);
 
                 ctx.SaveChanges();
             }
@@ -24,16 +26,15 @@ namespace TestProj.Test
         [Test]
         public void Read_Some_Data()
         {
-            var dbName = "TestProj.EFCodeFirst.SchoolContext";
-
-            using (var ctx = new SchoolContext(dbName))
+            using (var ctx = new SchoolContext(_dbName))
             {
                 var students = ctx.Students.ToList();
 
                 foreach (var item in students)
                 {
                     //Trace.WriteLine(string.Format("{0} {1} {2}", item.FirstName, item.LastName, item.Grade.GradeName));
-                    Trace.WriteLine(string.Format("{0} {1}", item.FirstName, item.LastName));
+                    //Trace.WriteLine(string.Format("{0} {1}", item.FirstName, item.LastName));
+                    Trace.WriteLine(item.ToString());
                 }
 
                 Assert.That(students.Count, Is.GreaterThan(0));

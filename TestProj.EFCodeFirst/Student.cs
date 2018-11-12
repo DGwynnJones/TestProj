@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Text;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
 
 namespace TestProj.EFCodeFirst
 {
@@ -29,18 +29,24 @@ namespace TestProj.EFCodeFirst
             var result = new StringBuilder();
 
             result.AppendLine(string.Format("[{0}]", GetType().FullName));
-            result.AppendLine(": " + this.FirstName);
-            result.AppendLine(": " + this.LastName);
-            result.AppendLine(": " + this.Height);
-            result.AppendLine(": " + this.Grade);
-            result.AppendLine(": " + this.Remarks);
-            result.AppendLine(": " + this.DateOfBirth.GetValueOrDefault().ToLongDateString());
-            result.AppendLine(": " + this.CurrentGradeId);
+            result.AppendLine("FirstName: " + FirstName);
+            result.AppendLine("LastName: " + LastName);
+            result.AppendLine("Height: " + Height);
+            result.AppendLine("Remarks: " + Remarks);
+            result.AppendLine("DateOfBirth: " + DateOfBirth.GetValueOrDefault().ToLongDateString());
+            result.AppendLine("CurrentGradeId: " + CurrentGradeId);
+
+            result.Append("Grade: ");
+            if (this.Grade != null)
+            {
+                result.AppendLine(Grade.GradeName);
+            }
+            else
+            {
+                result.AppendLine("[null]");
+            }
 
             return result.ToString();
         }
-
-
-
     }
 }

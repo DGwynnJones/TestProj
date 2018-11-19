@@ -21,8 +21,7 @@ namespace TestProj.Test
 
             Assert.That(logFile.Exists);
 
-            // Seems to need  <lockingModel type="log4net.Appender.FileAppender+MinimalLock" />
-            // to avoid file locking conflict
+            // Seems to need  <lockingModel type="log4net.Appender.FileAppender+MinimalLock" /> in config to avoid file locking conflict
             var logcontents = File.ReadAllText(logFile.FullName);
 
             Assert.That(logcontents.Contains(message));

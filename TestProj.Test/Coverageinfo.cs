@@ -8,8 +8,11 @@ namespace TestProj.Test
     {
         public static string GetReportGenerator()
         {
+            return GetReportGenerator(null);
+        }
 
-
+        public static string GetReportGenerator(string path)
+        {
             var exeDir = new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.FullName;
             var localDir = new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.Parent.Parent.Parent;
 

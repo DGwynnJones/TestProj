@@ -13,6 +13,8 @@ ECHO .
 ECHO .
 
 
-"..\..\..\packages\ReportGenerator.3.1.2\tools\ReportGenerator.exe" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
+"..\..\..\packages\ReportGenerator.4.0.4\tools\net47\ReportGenerator.exe" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
+
+
 
 Report\index.htm

@@ -1,7 +1,7 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿
 using SA.Utilities.ExtensionMethods;
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace TestProj.EFCodeFirst
 {
@@ -31,32 +31,7 @@ namespace TestProj.EFCodeFirst
 
         public override string ToString()
         {
-            var result = new StringBuilder();
-
-            result.AppendLine(string.Format("[{0}]", GetType().FullName));
-            result.AppendLine("FirstName: " + FirstName);
-            result.AppendLine("LastName: " + LastName);
-            result.AppendLine("Height: " + Height);
-            result.AppendLine("Remarks: " + Remarks);
-            result.AppendLine("DateOfBirth: " + DateOfBirth.GetValueOrDefault().ToLongDateString());
-            result.AppendLine("CurrentGradeId: " + CurrentGradeId);
-
-            result.Append("Grade: ");
-            if (Grade != null)
-            {
-                result.AppendLine(Grade.GradeName);
-            }
-            else
-            {
-                result.AppendLine("[null]");
-            }
-
-            var dm = DateModified;
-
-            result.AppendLine("DateModified: " + dm.ToLongDateAndTime());
-            //result.AppendLine("DateModified: " + dm.ToLongDateString() + " " + dm.ToLongTimeString());
-
-            return result.ToString();
+            return this.GenericToString();
         }
     }
 }

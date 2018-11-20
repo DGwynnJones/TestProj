@@ -11,19 +11,17 @@
 CLS
 
 <#
-var rgPath = new FileInfo(this.Host.ResolvePath("")).Directory;
-var rgExe = rgPath.GetFiles("ReportGenerator.exe", SearchOption.AllDirectories);
-var ocExe = rgPath.GetFiles("OpenCover.Console.exe", SearchOption.AllDirectories);
+var packageRoot = new FileInfo(this.Host.ResolvePath("")).Directory;
+var reportgeneratorExe = packageRoot.GetFiles("ReportGenerator.exe", SearchOption.AllDirectories);
+var opencoverExe = packageRoot.GetFiles("OpenCover.Console.exe", SearchOption.AllDirectories);
+var nunitExe = packageRoot.GetFiles("nunit3-console.exe", SearchOption.AllDirectories);
 #>
 
-ECHO RG: <#= rgPath  #>
-ECHO RG: <#= rgExe.Length  #>
-ECHO RG: <#= rgExe[0].FullName  #>
+ECHO RG: <#= packageRoot  #>
 ECHO Script generated at: <#= DateTime.Now.ToString() #>
 
-"<#= ocExe[0].FullName  #>" -filter:"+[TestProj*]* -[TestProj.Test]*" -target:"..\..\..\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe"  -targetargs:"TestProj.Test.dll " -output:"_CodeCoverageResult.xml" -register:user
+"<#= opencoverExe[0].FullName #>" -filter:"+[TestProj*]* -[TestProj.Test]*" -target:"<#= nunitExe[0].FullName #>" -targetargs:"TestProj.Test.dll" -output:"_CodeCoverageResult.xml" -register:user
 
-"<#= rgExe[0].FullName  #>" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
+"<#= reportgeneratorExe[0].FullName #>" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
 
 Report\index.htm
-

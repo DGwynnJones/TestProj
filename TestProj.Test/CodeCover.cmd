@@ -10,6 +10,7 @@ CLS
 Report\index.htm
 
 ECHO.
-ECHO Script generated at: 21/11/2018 10:09:05 AM
+ECHO Script generated at: 21/11/2018 10:20:09 AM
 ECHO Package root: C:\Users\dgwynnjones\source\repos\TestProj
+ECHO.
 ECHO.

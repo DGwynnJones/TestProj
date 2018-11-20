@@ -33,3 +33,4 @@ ECHO.
 ECHO Script generated at: <#= DateTime.Now.ToString() #>
 ECHO Package root: <#= packageRoot  #>
 ECHO.
+ECHO.

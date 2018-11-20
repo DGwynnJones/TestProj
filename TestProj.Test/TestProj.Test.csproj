@@ -79,9 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicTests.cs" />
-    <Compile Include="FindReportGeneratorTests.cs" />
     <Compile Include="MoqExperiments.cs" />
-    <Compile Include="Coverageinfo.cs" />
     <Compile Include="DataTests.cs" />
     <Compile Include="DirectoryInfoExtensions.cs" />
     <Compile Include="EFCodeFirstTests\MockExperiment.cs" />

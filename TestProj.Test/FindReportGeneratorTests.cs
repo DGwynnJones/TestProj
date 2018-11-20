@@ -1,9 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NUnit.Framework;
 using System.Diagnostics;
 
 namespace TestProj.Test
@@ -14,10 +9,7 @@ namespace TestProj.Test
         [Test]
         public void Basic_()
         {
-
-            Trace.WriteLine(">> "+ Coverageinfo.GetReportGenerator() );
-
+            Trace.WriteLine(">> " + Coverageinfo.GetReportGenerator());
         }
-
     }
 }

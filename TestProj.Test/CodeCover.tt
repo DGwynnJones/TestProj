@@ -1,0 +1,35 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ assembly name="$(SolutionDir)TestProj.Test\bin\$(ConfigurationName)\TestProj.Test.dll" #>
+<#@ output extension=".cmd" #>
+@ECHO OFF
+@ECHO OFF
+CLS
+
+<#
+
+var packageRoot = new FileInfo(this.Host.ResolvePath("")).Directory;
+var reportgeneratorExe = packageRoot.GetFiles("ReportGenerator.exe", SearchOption.AllDirectories)[0].FullName;
+var opencoverExe = packageRoot.GetFiles("OpenCover.Console.exe", SearchOption.AllDirectories)[0].FullName;
+var nunitExe = packageRoot.GetFiles("nunit3-console.exe", SearchOption.AllDirectories)[0].FullName;
+
+var includeFilters = "+[TestProj*]*";
+
+includeFilters = "+[TestProj.Business]* +[TestProj.EFCodeFirst]*";
+
+#>
+
+"<#= opencoverExe #>" -filter:"<#= includeFilters #> -[TestProj.Test]*" -target:"<#= nunitExe #>" -targetargs:"TestProj.Test.dll" -output:"_CodeCoverageResult.xml" -register:user
+
+"<#= reportgeneratorExe #>" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
+
+Report\index.htm
+
+ECHO.
+ECHO Script generated at: <#= DateTime.Now.ToString() #>
+ECHO Package root: <#= packageRoot  #>
+ECHO.

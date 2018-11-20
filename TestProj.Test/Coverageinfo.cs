@@ -6,6 +6,8 @@ namespace TestProj.Test
     {
         public static string GetReportGenerator()
         {
+
+            var x = new System.Diagnostics.Stopwatch();
             return GetReportGenerator(null);
         }
 

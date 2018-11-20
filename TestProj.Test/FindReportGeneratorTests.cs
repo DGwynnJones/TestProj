@@ -9,7 +9,7 @@ namespace TestProj.Test
         [Test]
         public void Basic_()
         {
-            Trace.WriteLine(">> " + Coverageinfo.GetReportGenerator());
+            //Trace.WriteLine(">> " + Coverageinfo.GetReportGenerator());
         }
     }
 }

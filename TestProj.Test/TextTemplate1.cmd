@@ -1,25 +1,16 @@
-﻿
+﻿@ECHO OFF
 @ECHO OFF
-
-ECHO Hello world!
-
-   The square of 0 is 0
-   The square of 1 is 1
-   The square of 2 is 4
-   The square of 3 is 9
-   The square of 4 is 16
-   The square of 5 is 25
-   The square of 6 is 36
-   The square of 7 is 49
-   The square of 8 is 64
-   The square of 9 is 81
-   The square of 10 is 100
+CLS
 
 
-PP: C:\Users\dgwynnjones\source\repos\TestProj\TestProj.Test
-RG: C:\Users\dgwynnjones\source\repos\TestProj
-RG: 1
-RG: C:\Users\dgwynnjones\source\repos\TestProj\packages\ReportGenerator.4.0.4\tools\net47\ReportGenerator.exe
-20/11/2018 4:40:32 PM
+ECHO RG: C:\Users\dgwynnjones\source\repos\TestProj
+ECHO RG: 1
+ECHO RG: C:\Users\dgwynnjones\source\repos\TestProj\packages\ReportGenerator.4.0.4\tools\net47\ReportGenerator.exe
+ECHO Script generated at: 21/11/2018 9:07:24 AM
 
+"C:\Users\dgwynnjones\source\repos\TestProj\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -filter:"+[TestProj*]* -[TestProj.Test]*" -target:"..\..\..\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe"  -targetargs:"TestProj.Test.dll " -output:"_CodeCoverageResult.xml" -register:user
+
+"C:\Users\dgwynnjones\source\repos\TestProj\packages\ReportGenerator.4.0.4\tools\net47\ReportGenerator.exe" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
+
+Report\index.htm
 

@@ -6,34 +6,24 @@
 <#@ assembly name="$(SolutionDir)TestProj.Test\bin\$(ConfigurationName)\TestProj.Test.dll" #>
 <#@ import namespace="System.Collections.Generic" #>
 <#@ output extension=".cmd" #>
-
 @ECHO OFF
-
-ECHO Hello world!
-
-<#int top = 10;
-
-
-
-for (int i = 0; i<=top; i++)
-{ #>
-   The square of <#= i #> is <#= i*i #>
-<# } #>
-
+@ECHO OFF
+CLS
 
 <#
-var projPath = this.Host.ResolvePath("");
-var rgPath = new FileInfo(projPath).Directory;
-
+var rgPath = new FileInfo(this.Host.ResolvePath("")).Directory;
 var rgExe = rgPath.GetFiles("ReportGenerator.exe", SearchOption.AllDirectories);
-
-//TestProj.Test.Coverageinfo.GetReportGenerator(projPath) 
-
+var ocExe = rgPath.GetFiles("OpenCover.Console.exe", SearchOption.AllDirectories);
 #>
-PP: <#= projPath  #>
-RG: <#= rgPath  #>
-RG: <#= rgExe.Length  #>
-RG: <#= rgExe[0].FullName  #>
-<#= DateTime.Now.ToString() #>
 
+ECHO RG: <#= rgPath  #>
+ECHO RG: <#= rgExe.Length  #>
+ECHO RG: <#= rgExe[0].FullName  #>
+ECHO Script generated at: <#= DateTime.Now.ToString() #>
+
+"<#= ocExe[0].FullName  #>" -filter:"+[TestProj*]* -[TestProj.Test]*" -target:"..\..\..\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe"  -targetargs:"TestProj.Test.dll " -output:"_CodeCoverageResult.xml" -register:user
+
+"<#= rgExe[0].FullName  #>" "-reports:_CodeCoverageResult.xml" "-targetdir:Report"
+
+Report\index.htm
 

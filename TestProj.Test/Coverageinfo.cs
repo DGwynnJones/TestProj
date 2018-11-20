@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-using System.IO;
-using System.Reflection;
+﻿using System.IO;
 
 namespace TestProj.Test
 {
@@ -13,14 +11,10 @@ namespace TestProj.Test
 
         public static string GetReportGenerator(string path)
         {
-            var exeDir = new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.FullName;
-            var localDir = new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.Parent.Parent.Parent;
+            var result = path;
 
-            Trace.WriteLine(">> " + localDir.FullName);
-
+            var localDir = new FileInfo(path).Directory.Parent.Parent.Parent;
             var rgExe = localDir.GetFiles("ReportGenerator.exe", SearchOption.AllDirectories);
-
-            var result = "";
 
             if (rgExe.Length == 1)
             {
@@ -29,10 +23,34 @@ namespace TestProj.Test
             }
             else
             {
-                result = exeDir + " !!!!!!!!!!!!!!!!";
+                result = "RG not found in path " + path;
             }
 
             return result;
         }
+
+        //public static string GetReportGenerator(string path)
+        //{
+        //    var exeDir = new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.FullName;
+        //    var localDir = new FileInfo(Assembly.GetExecutingAssembly().Location).Directory.Parent.Parent.Parent;
+
+        //    Trace.WriteLine(">> " + localDir.FullName);
+
+        //    var rgExe = localDir.GetFiles("ReportGenerator.exe", SearchOption.AllDirectories);
+
+        //    var result = "";
+
+        //    if (rgExe.Length == 1)
+        //    {
+        //        result = rgExe[0].FullName;
+        //        //Trace.WriteLine(rgExe[0].FullName);
+        //    }
+        //    else
+        //    {
+        //        result = exeDir + " !!!!!!!!!!!!!!!!";
+        //    }
+
+        //    return result;
+        //}
     }
 }

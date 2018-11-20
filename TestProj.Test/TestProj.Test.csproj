@@ -109,6 +109,7 @@
       <DependentUpon>CodeCover.tt</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TestProj.Business\TestProj.Business.csproj">

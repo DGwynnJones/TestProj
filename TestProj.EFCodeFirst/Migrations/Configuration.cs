@@ -1,3 +1,5 @@
+using System;
+
 namespace TestProj.EFCodeFirst.Migrations
 {
     using System.Data.Entity.Migrations;
@@ -7,6 +9,11 @@ namespace TestProj.EFCodeFirst.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+
+            if (Environment.MachineName == "L302088")
+            {
+                AutomaticMigrationDataLossAllowed = true;
+            }
         }
 
         protected override void Seed(TestProj.EFCodeFirst.SchoolContext context)

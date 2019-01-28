@@ -1,13 +1,14 @@
 ﻿using NUnit.Framework;
+using SA.UnitTestingHelper;
+using System.Data.Entity;
 using System.Diagnostics;
 using System.Linq;
 using TestProj.EFCodeFirst;
-using System.Data.Entity;
 
 namespace TestProj.Test.EFCodeFirstTests
 {
     [TestFixture]
-    public class EFCodeFirstTests
+    public class EFCodeFirstTests : TestBase
     {
         private string _dbName = "TestProj.EFCodeFirst.SchoolContext";
 
@@ -29,16 +30,15 @@ namespace TestProj.Test.EFCodeFirstTests
         {
             using (var ctx = new SchoolContext(_dbName))
             {
-                var students = ctx.Students.ToList();
+                var students = ctx.Students.Include(g => g.Grade).ToList();
+
+                Assert.That(students.Count, Is.GreaterThan(0));
 
                 foreach (var item in students)
                 {
-                    //Trace.WriteLine(string.Format("{0} {1} {2}", item.FirstName, item.LastName, item.Grade.GradeName));
-                    //Trace.WriteLine(string.Format("{0} {1}", item.FirstName, item.LastName));
                     Trace.WriteLine(item.ToString());
+                    Assert.That(item.Grade, Is.Not.Null);
                 }
-
-                Assert.That(students.Count, Is.GreaterThan(0));
             }
         }
 
@@ -47,7 +47,6 @@ namespace TestProj.Test.EFCodeFirstTests
         {
             using (var ctx = new SchoolContext(_dbName))
             {
-
                 var students = ctx.Students.Include(x => x.Grade).ToList();
 
                 foreach (var item in students)
@@ -56,7 +55,6 @@ namespace TestProj.Test.EFCodeFirstTests
                     Trace.WriteLine(item.Grade.ToString());
 
                     Assert.That(item.Grade, Is.Not.Null);
-
                 }
 
                 Assert.That(students.Count, Is.GreaterThan(0));

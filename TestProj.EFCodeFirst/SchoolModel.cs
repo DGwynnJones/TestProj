@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestProj.EFCodeFirst
 {
-    public class SchoolService
+    public class SchoolModel
     {
         private SchoolContext _context;
 
-        public SchoolService(SchoolContext context)
+        public SchoolModel(SchoolContext context)
         {
             _context = context;
         }

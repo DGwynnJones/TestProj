@@ -30,7 +30,7 @@ namespace TestProj.Test.EFCodeFirstTests
             var mockContext = new Mock<SchoolContext>();
             mockContext.Setup(c => c.Students).Returns(mockSet.Object);
 
-            var service = new SchoolService(mockContext.Object);
+            var service = new SchoolModel(mockContext.Object);
             var blogs = service.GetAllStudents();
 
             Assert.AreEqual(3, blogs.Count);

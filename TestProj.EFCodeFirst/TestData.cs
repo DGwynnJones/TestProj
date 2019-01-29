@@ -7,11 +7,16 @@ namespace TestProj.EFCodeFirst
     {
         private Random _rnd = new Random();
 
-        public void DeleteAndRecreate(SchoolContext context)
+        public void DeleteTestData(SchoolContext context)
         {
-            //var students = context.Students;
+            context.StudentAddresses.RemoveRange(context.StudentAddresses);
             context.Students.RemoveRange(context.Students);
             context.Grades.RemoveRange(context.Grades);
+        }
+
+        public void DeleteAndRecreate(SchoolContext context)
+        {
+            DeleteTestData(context);
 
             var gradeCredit = new Grade()
             {
@@ -48,6 +53,19 @@ namespace TestProj.EFCodeFirst
                 {
                     stud.Grade = gradeCredit;
                 }
+
+                var addr = new StudentAddress()
+                {
+                    Address1 = "addr 1 " + stud.FirstName,
+                    Address2 = "addr 2",
+                    City = "Wanaaring",
+                    State = "NSW",
+                    Country = "Straya",
+                    Student = stud
+                };
+                stud.Address = addr;
+
+                //context.st
 
                 context.Students.Add(stud);
             }

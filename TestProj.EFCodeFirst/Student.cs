@@ -29,6 +29,8 @@ namespace TestProj.EFCodeFirst
 
         public int CurrentGradeId { get; set; }
 
+        public virtual StudentAddress Address { get; set; }
+
         public override string ToString()
         {
             return this.GenericToString();

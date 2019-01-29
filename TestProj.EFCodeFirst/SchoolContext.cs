@@ -6,12 +6,15 @@ namespace TestProj.EFCodeFirst
     {
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Grade> Grades { get; set; }
+        public virtual DbSet<StudentAddress> StudentAddresses { get; set; }
 
-        public SchoolContext() : base()
+        private static string _dbName = "TestProj.EFCodeFirst.SchoolContext";
+
+        internal SchoolContext() : base(_dbName)
         {
         }
 
-        public SchoolContext(string nameOrConnectionString) : base(nameOrConnectionString) //base("Conn")
+        internal SchoolContext(string nameOrConnectionString) : base(nameOrConnectionString) //base("Conn")
         {
         }
 

@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace TestProj.EFCodeFirst
 {
     public class SchoolModel
     {
         private SchoolContext _context;
+
+        public SchoolModel()
+        {
+            _context = new SchoolContext();
+        }
 
         public SchoolModel(SchoolContext context)
         {
@@ -23,22 +27,31 @@ namespace TestProj.EFCodeFirst
             return blog;
         }
 
-        public List<Student> GetAllStudents()
+        public IList<Student> GetAllStudents()
         {
-            var query = from b in _context.Students
+            var query = from b in _context.Students.Include(g => g.Grade)
                         orderby b.LastName
                         select b;
 
             return query.ToList();
         }
 
-        public async Task<List<Student>> GetAllStudentsAsync()
+        public IList<Grade> GetAllGrades()
         {
-            var query = from b in _context.Students
-                        orderby b.LastName
+            var query = from b in _context.Grades.Include(g => g.Students)
+                        orderby b.GradeName
                         select b;
 
-            return await query.ToListAsync();
+            return query.ToList();
         }
+
+        //public async Task<List<Student>> GetAllStudentsAsync()
+        //{
+        //    var query = from b in _context.Students
+        //                orderby b.LastName
+        //                select b;
+
+        //    return await query.ToListAsync();
+        //}
     }
 }

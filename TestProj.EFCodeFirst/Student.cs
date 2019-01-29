@@ -25,9 +25,11 @@ namespace TestProj.EFCodeFirst
         public string Remarks { get; set; }
         public string PreferredName { get; set; }
 
+        [Required]
         public Grade Grade { get; set; }
 
         public int CurrentGradeId { get; set; }
+        public int AddressId { get; set; }
 
         public virtual StudentAddress Address { get; set; }
 

@@ -1,6 +1,5 @@
-﻿using System.Linq;
+﻿using System;
 using System.Web.Mvc;
-using TestProj.EFCodeFirst;
 
 namespace TestProj.Web.Controllers
 {
@@ -20,17 +19,18 @@ namespace TestProj.Web.Controllers
 
         public ActionResult Info()
         {
-            ViewBag.Message = "Your application information page.";
+            throw new NotImplementedException();
+            //ViewBag.Message = "Your application information page.";
 
-            var context = new SchoolContext("TestDBEntities"); // "TestProj.EFCodeFirst.SchoolContext");
+            //var context =  new SchoolContext("TestDBEntities"); // "TestProj.EFCodeFirst.SchoolContext");
 
-            var x = context.Students
-                            .Where(b => b.FirstName == "Bill")
-                            .FirstOrDefault();
+            //var x = context.Students
+            //                .Where(b => b.FirstName == "Bill")
+            //                .FirstOrDefault();
 
-            var employees = context.Students.ToList();
+            //var employees = context.Students.ToList();
 
-            return View(employees);
+            //return View(employees);
         }
 
         public ActionResult Contact()

@@ -57,6 +57,10 @@
     <Reference Include="SA.UnitTestingHelper">
       <HintPath>..\..\SA.Utilities\SA.UnitTesting\bin\Debug\SA.UnitTestingHelper.dll</HintPath>
     </Reference>
+    <Reference Include="SA.Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SA.Utilities\SA.Utilities\bin\Debug\SA.Utilities.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />

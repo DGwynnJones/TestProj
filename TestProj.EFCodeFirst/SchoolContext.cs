@@ -10,7 +10,7 @@ namespace TestProj.EFCodeFirst
 
         private static string _dbName = "TestProj.EFCodeFirst.SchoolContext";
 
-        internal SchoolContext() : base(_dbName)
+        public SchoolContext() : base(_dbName)
         {
         }
 
@@ -25,6 +25,9 @@ namespace TestProj.EFCodeFirst
                 .HasRequired<Grade>(s => s.Grade)
                 .WithMany(g => g.Students)
                 .HasForeignKey<int>(s => s.CurrentGradeId);
+
+            modelBuilder.Entity<Student>()
+                .HasRequired<StudentAddress>(s => s.Address);
         }
     }
 }

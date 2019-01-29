@@ -1,6 +1,8 @@
 ﻿using NUnit.Framework;
 using SA.UnitTestingHelper;
+using SA.Utilities;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 using System.Diagnostics;
 using System.Linq;
 using TestProj.EFCodeFirst;
@@ -13,11 +15,9 @@ namespace TestProj.Test.EFCodeFirstTests
         [Test]
         public void Test_Data_Is_Created()
         {
-            var testData = new TestData();
-
             using (var ctx = SchoolContextFactory.GetSchoolContext())
             {
-                testData.DeleteAndRecreate(ctx);
+                TestData.DeleteAndRecreate(ctx);
 
                 ctx.SaveChanges();
                 var model = new SchoolModel(ctx);
@@ -41,15 +41,13 @@ namespace TestProj.Test.EFCodeFirstTests
         [Test]
         public void DeleteTestData_Removes_All_Test_Data()
         {
-            var testData = new TestData();
-
             using (var ctx = SchoolContextFactory.GetSchoolContext())
             {
-                testData.DeleteAndRecreate(ctx);
+                TestData.DeleteAndRecreate(ctx);
 
                 ctx.SaveChanges();
 
-                testData.DeleteTestData(ctx);
+                TestData.DeleteTestData(ctx);
 
                 ctx.SaveChanges();
 
@@ -66,29 +64,33 @@ namespace TestProj.Test.EFCodeFirstTests
         [Test]
         public void Cascade_Delete()
         {
-            using (var ctx = SchoolContextFactory.GetSchoolContext())
+            try
             {
-                var stud = new Student() { FirstName = "James" };
-                var add = new StudentAddress() { Address1 = "address" };
+                using (var ctx = SchoolContextFactory.GetSchoolContext())
+                {
+                    TestData.DeleteTestData(ctx);
+                    ctx.SaveChanges();
 
-                stud.Address = add;
+                    var grade = new Grade() { GradeName = "Credit", GradeValue = 2, Section = "Senior" };
+                    var stud = new Student() { FirstName = "James", LastName = "Joyce", Grade = grade };
+                    var add = new StudentAddress() { Address1 = "address" };
 
-                ctx.Students.Add(stud);
+                    stud.Address = add;
 
-                ctx.SaveChanges();
+                    ctx.Students.Add(stud);
 
-                ctx.Students.Remove(stud);// student and its address will be removed from db
+                    ctx.SaveChanges();
 
-                ctx.SaveChanges();
+                    ctx.Students.Remove(stud);
+
+                    ctx.SaveChanges();
+                }
             }
-
-            var testData = new TestData();
-
-            using (var ctx = SchoolContextFactory.GetSchoolContext())
+            catch (DbEntityValidationException ex)
             {
-                testData.DeleteAndRecreate(ctx);
-
-                ctx.SaveChanges();
+                Trace.WriteLine("");
+                Trace.WriteLine(EntityUtilities.GetErrors(ex));
+                throw ex;
             }
         }
 

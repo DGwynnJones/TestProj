@@ -5,17 +5,17 @@ namespace TestProj.EFCodeFirst
 {
     public class TestData
     {
-        private Random _rnd = new Random();
-
-        public void DeleteTestData(SchoolContext context)
+        public static void DeleteTestData(SchoolContext context)
         {
             context.StudentAddresses.RemoveRange(context.StudentAddresses);
             context.Students.RemoveRange(context.Students);
             context.Grades.RemoveRange(context.Grades);
         }
 
-        public void DeleteAndRecreate(SchoolContext context)
+        public static void DeleteAndRecreate(SchoolContext context)
         {
+            var _rnd = new Random();
+
             DeleteTestData(context);
 
             var gradeCredit = new Grade()
@@ -38,7 +38,7 @@ namespace TestProj.EFCodeFirst
 
                 var stud = new Student()
                 {
-                    FirstName = "Bill",
+                    FirstName = "Bill " + i,
                     LastName = "Student " + i,
                     DateOfBirth = dob,
                     Height = _rnd.Next(140, 220),

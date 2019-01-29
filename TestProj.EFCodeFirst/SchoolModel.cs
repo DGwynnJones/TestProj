@@ -1,35 +1,35 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using TestProj.EFCodeFirst.EFPocoClasses;
 
 namespace TestProj.EFCodeFirst
 {
     public class SchoolModel
     {
-        private SchoolContext _context;
+        public SchoolContext Context { get; private set; }
 
         public SchoolModel()
         {
-            _context = new SchoolContext();
+            Context = new SchoolContext();
         }
 
         public SchoolModel(SchoolContext context)
         {
-            _context = context;
+            Context = context;
         }
 
         public Student AddStudent(string firstName, string lastName)
         {
-            var blog = _context.Students.Add(new Student { FirstName = firstName, LastName = lastName });
-            _context.SaveChanges();
+            var blog = Context.Students.Add(new Student { FirstName = firstName, LastName = lastName });
+            Context.SaveChanges();
 
             return blog;
         }
 
         public IList<Student> GetAllStudents()
         {
-            var query = from b in _context.Students.Include(g => g.Grade)
+            var query = from b in Context.Students.Include(g => g.Grade)
                         orderby b.LastName
                         select b;
 
@@ -38,7 +38,7 @@ namespace TestProj.EFCodeFirst
 
         public IList<Grade> GetAllGrades()
         {
-            var query = from b in _context.Grades.Include(g => g.Students)
+            var query = from b in Context.Grades.Include(g => g.Students)
                         orderby b.GradeName
                         select b;
 

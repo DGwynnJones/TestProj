@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using TestProj.EFCodeFirst;
+using TestProj.EFCodeFirst.EFPocoClasses;
 
 namespace TestProj.Test.EFCodeFirstTests
 {

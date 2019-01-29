@@ -1,5 +1,6 @@
 ﻿
 using System;
+using TestProj.EFCodeFirst.EFPocoClasses;
 
 namespace TestProj.EFCodeFirst
 {
@@ -8,8 +9,10 @@ namespace TestProj.EFCodeFirst
         public static void DeleteTestData(SchoolContext context)
         {
             context.StudentAddresses.RemoveRange(context.StudentAddresses);
+            context.StudentAddresses.RemoveRange(context.StudentAddresses);
             context.Students.RemoveRange(context.Students);
             context.Grades.RemoveRange(context.Grades);
+            context.SaveChanges();
         }
 
         public static void DeleteAndRecreate(SchoolContext context)
@@ -32,7 +35,7 @@ namespace TestProj.EFCodeFirst
                 GradeValue = 3
             };
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 4; i++)
             {
                 var dob = new DateTime(1960 + _rnd.Next(0, 35), _rnd.Next(1, 12), _rnd.Next(1, 28));
 
@@ -68,6 +71,8 @@ namespace TestProj.EFCodeFirst
                 //context.st
 
                 context.Students.Add(stud);
+
+                context.SaveChanges();
             }
         }
     }

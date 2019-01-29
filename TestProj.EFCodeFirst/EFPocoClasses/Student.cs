@@ -3,7 +3,7 @@ using SA.Utilities.ExtensionMethods;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace TestProj.EFCodeFirst
+namespace TestProj.EFCodeFirst.EFPocoClasses
 {
     public class Student
     {
@@ -25,12 +25,15 @@ namespace TestProj.EFCodeFirst
         public string Remarks { get; set; }
         public string PreferredName { get; set; }
 
-        [Required]
+        public virtual Standard Standard { get; set; }
+
+        //[Required]
         public Grade Grade { get; set; }
 
         public int CurrentGradeId { get; set; }
         public int AddressId { get; set; }
 
+        [Required]
         public virtual StudentAddress Address { get; set; }
 
         public override string ToString()

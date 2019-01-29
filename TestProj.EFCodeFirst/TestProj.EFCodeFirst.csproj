@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
-    <Compile Include="Grade.cs" />
+    <Compile Include="EFPocoClasses\Grade.cs" />
     <Compile Include="Migrations\201810310043149_mig1.cs" />
     <Compile Include="Migrations\201810310043149_mig1.Designer.cs">
       <DependentUpon>201810310043149_mig1.cs</DependentUpon>
@@ -62,8 +62,9 @@
     <Compile Include="SchoolContext.cs" />
     <Compile Include="SchoolContextFactory.cs" />
     <Compile Include="SchoolModel.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentAddress.cs" />
+    <Compile Include="EFPocoClasses\Standard.cs" />
+    <Compile Include="EFPocoClasses\Student.cs" />
+    <Compile Include="EFPocoClasses\StudentAddress.cs" />
     <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>

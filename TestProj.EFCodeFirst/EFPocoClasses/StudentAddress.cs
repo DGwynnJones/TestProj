@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TestProj.EFCodeFirst
+namespace TestProj.EFCodeFirst.EFPocoClasses
 {
     public class StudentAddress
     {

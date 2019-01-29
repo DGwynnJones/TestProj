@@ -3,6 +3,7 @@ using SA.UnitTestingHelper;
 using SA.Utilities;
 using System.Data.Entity.Validation;
 using System.Diagnostics;
+using System.Linq;
 using TestProj.EFCodeFirst;
 using TestProj.EFCodeFirst.EFPocoClasses;
 
@@ -163,6 +164,34 @@ namespace TestProj.Test.EFCodeFirstTests
 
                 Assert.That(allStudents.Count, Is.EqualTo(0));
                 Assert.That(allGrades.Count, Is.EqualTo(0));
+            }
+        }
+
+        [Test]
+        public void Child_Object_Can_Be_Modified()
+        {
+            using (var ctx = SchoolContextFactory.GetSchoolContext())
+            {
+                TestData.DeleteAndRecreate(ctx);
+
+                ctx.SaveChanges();
+
+                var model = new SchoolModel(ctx);
+
+                var allStudents = model.GetAllStudents();
+
+                Trace.WriteLine(allStudents[3].ToString());
+                var s = allStudents[3];
+
+                var newGradeName = "Ninja";
+
+                s.Grade.GradeName = newGradeName;
+
+                ctx.SaveChanges();
+
+                var grade = model.GetAllGrades().Where(d => d.GradeName == newGradeName).FirstOrDefault();
+
+                Assert.That(grade, Is.Not.Null);
             }
         }
 

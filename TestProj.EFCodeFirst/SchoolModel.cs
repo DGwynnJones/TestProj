@@ -44,14 +44,5 @@ namespace TestProj.EFCodeFirst
 
             return query.ToList();
         }
-
-        //public async Task<List<Student>> GetAllStudentsAsync()
-        //{
-        //    var query = from b in _context.Students
-        //                orderby b.LastName
-        //                select b;
-
-        //    return await query.ToListAsync();
-        //}
     }
 }

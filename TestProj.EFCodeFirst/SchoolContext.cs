@@ -7,6 +7,7 @@ namespace TestProj.EFCodeFirst
     {
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Grade> Grades { get; set; }
+        public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<StudentAddress> StudentAddresses { get; set; }
         public virtual DbSet<Standard> Standards { get; set; }
 
@@ -30,6 +31,16 @@ namespace TestProj.EFCodeFirst
 
             modelBuilder.Entity<Student>()
                 .HasRequired<StudentAddress>(s => s.Address);
+
+            modelBuilder.Entity<Student>()
+               .HasMany<Course>(s => s.Courses)
+               .WithMany(c => c.Students)
+               .Map(cs =>
+               {
+                   cs.MapLeftKey("StudentRefId");
+                   cs.MapRightKey("CourseRefId");
+                   cs.ToTable("StudentCourse");
+               });
         }
     }
 }

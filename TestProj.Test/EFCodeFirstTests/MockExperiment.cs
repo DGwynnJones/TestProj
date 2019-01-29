@@ -11,7 +11,7 @@ namespace TestProj.Test.EFCodeFirstTests
     [TestFixture]
     public class MockExperiment
     {
-        [Test]
+        [Test, Ignore("not needed for now")]
         public void GetAllBlogs_orders_by_name()
         {
             var data = new List<Student>

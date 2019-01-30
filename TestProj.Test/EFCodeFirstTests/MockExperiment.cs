@@ -6,7 +6,7 @@ using System.Linq;
 using TestProj.EFCodeFirst;
 using TestProj.EFCodeFirst.EFPocoClasses;
 
-namespace TestProj.Test.EFCodeFirstTests
+namespace TestProj.Test.Moq
 {
     [TestFixture]
     public class MockExperiment

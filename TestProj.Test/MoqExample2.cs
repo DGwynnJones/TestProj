@@ -2,7 +2,7 @@
 using Moq;
 using NUnit.Framework;
 
-namespace TestProj.Test2
+namespace TestProj.Test.Moq
 {
     [TestFixture]
     public class MoqExample
